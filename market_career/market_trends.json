@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "module": "Jaishwa Career Intelligence Trends Engine",
+    "baseline_year": 2024,
+    "projection_horizon": "2026-2032",
+    "last_updated": "Q1 2026"
+  },
+  "categories": [
+    {
+      "category_name": "Artificial Intelligence & Data",
+      "cagr": "31.5%",
+      "projected_new_roles_india_k": 1250,
+      "hiring_sentiment": "Aggressive Growth",
+      "key_drivers": [
+        "Generative AI enterprise rollouts",
+        "Agentic automation pipelines",
+        "Global In-house Centers (GCCs)"
+      ]
+    },
+    {
+      "category_name": "Sustainable Tech & Clean Energy",
+      "cagr": "34.2%",
+      "projected_new_roles_india_k": 890,
+      "hiring_sentiment": "Aggressive Growth",
+      "key_drivers": [
+        "National Green Hydrogen Mission",
+        "500GW Renewable Mandate",
+        "FAME III EV transition"
+      ]
+    },
+    {
+      "category_name": "Security & Infrastructure",
+      "cagr": "26.8%",
+      "projected_new_roles_india_k": 640,
+      "hiring_sentiment": "High Consistent Demand",
+      "key_drivers": [
+        "India DPDP Act enforcement",
+        "Zero Trust migration",
+        "Critical infrastructure protection"
+      ]
+    },
+    {
+      "category_name": "Core & Autonomous Engineering",
+      "cagr": "21.4%",
+      "projected_new_roles_india_k": 520,
+      "hiring_sentiment": "Moderate-High Growth",
+      "key_drivers": [
+        "Make In India electronics assembly",
+        "Drone PLI scheme",
+        "Factory 4.0 automation"
+      ]
+    },
+    {
+      "category_name": "Emerging STEAM Frontiers",
+      "cagr": "38.0%",
+      "projected_new_roles_india_k": 310,
+      "hiring_sentiment": "Rapid Emerging",
+      "key_drivers": [
+        "National Quantum Mission",
+        "Precision AgriTech drone subsidies",
+        "DeepTech incubators"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "last_updated": "Q1 2026",
+  "data_nature": "Synthetic Market Intelligence for Prototype Demonstration",
+  "sources": [
+    "NASSCOM Tech Landscape Report 2025-2026",
+    "TeamLease Digital Tech Employment Outlook",
+    "Government of Tamil Nadu & Karnataka IT Corridors Statistics"
+  ],
+  "locations": [
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "tier": "Tier 1",
+      "ecosystem_summary": "Silicon Valley of India with premier concentration of AI labs, R&D centers, venture-backed startups, and global tech headquarters.",
+      "overall_tech_demand_index": 98,
+      "cost_of_living_index": 88,
+      "growth_rate_yoy": "+14.2%",
+      "primary_strengths": [
+        "Artificial Intelligence",
+        "Cloud Architecture",
+        "DeepTech",
+        "Product Engineering"
+      ],
+      "prominent_zones": [
+        "Electronic City",
+        "Whitefield",
+        "Outer Ring Road",
+        "Bellandur"
+      ]
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "tier": "Tier 1",
+      "ecosystem_summary": "Major SaaS hub of Asia alongside India premier automotive and hardware manufacturing corridors. Deep strength in deep learning, fintech, and EV engineering.",
+      "overall_tech_demand_index": 91,
+      "cost_of_living_index": 72,
+      "growth_rate_yoy": "+12.8%",
+      "primary_strengths": [
+        "Enterprise SaaS",
+        "EV & Automotive Systems",
+        "Robotics",
+        "Data Science"
+      ],
+      "prominent_zones": [
+        "OMR IT Expressway",
+        "Guindy Industrial Estate",
+        "Siruseri SIPCOT",
+        "Sriperumbudur EV Corridor"
+      ]
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "tier": "Tier 1",
+      "ecosystem_summary": "Rapidly surging tech superpower with massive hyperscale cloud centers, biotech research, and AI innovation clusters.",
+      "overall_tech_demand_index": 93,
+      "cost_of_living_index": 75,
+      "growth_rate_yoy": "+15.1%",
+      "primary_strengths": [
+        "Cloud Infrastructure",
+        "Biomedical & HealthTech",
+        "Cyber Security",
+        "Data Analytics"
+      ],
+      "prominent_zones": [
+        "HITEC City",
+        "Gachibowli",
+        "Genome Valley",
+        "Madhapur"
+      ]
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "tier": "Tier 1",
+      "ecosystem_summary": "Strong engineering powerhouse combining automotive electronics, mechanical automation, and enterprise IT services.",
+      "overall_tech_demand_index": 86,
+      "cost_of_living_index": 76,
+      "growth_rate_yoy": "+11.5%",
+      "primary_strengths": [
+        "Automotive Software",
+        "Mechanical Systems",
+        "Embedded IoT",
+        "Cloud Platforms"
+      ],
+      "prominent_zones": [
+        "Hinjawadi Rajiv Gandhi Infotech Park",
+        "Magarpatta",
+        "Chakan Auto Hub"
+      ]
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "tier": "Tier 1",
+      "ecosystem_summary": "Financial capital driving high-salary FinTech, algorithmic trading, enterprise cybersecurity, and executive digital product design.",
+      "overall_tech_demand_index": 89,
+      "cost_of_living_index": 95,
+      "growth_rate_yoy": "+10.9%",
+      "primary_strengths": [
+        "FinTech & BFSI",
+        "Cyber Security",
+        "UI/UX & Product Design",
+        "Cloud Security"
+      ],
+      "prominent_zones": [
+        "Bandra Kurla Complex (BKC)",
+        "Lower Parel",
+        "Powai",
+        "Navi Mumbai Tech Corridor"
+      ]
+    },
+    {
+      "city": "Delhi NCR",
+      "state": "Delhi / Haryana / UP",
+      "tier": "Tier 1",
+      "ecosystem_summary": "Huge consumer-tech and enterprise ecosystem spanning Gurugram and Noida, with large defense tech, e-commerce, and green energy investments.",
+      "overall_tech_demand_index": 90,
+      "cost_of_living_index": 82,
+      "growth_rate_yoy": "+12.1%",
+      "primary_strengths": [
+        "Consumer Tech",
+        "Renewable Energy Tech",
+        "Data Engineering",
+        "UI/UX Design"
+      ],
+      "prominent_zones": [
+        "Cyber City Gurugram",
+        "Sector 62 Noida",
+        "Okhla Innovation District"
+      ]
+    },
+    {
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "tier": "Tier 2",
+      "ecosystem_summary": "High-growth hyper-local innovation hub with exceptional industrial heritage in pumps, textile machinery, precision engineering, and rising EV component tech.",
+      "overall_tech_demand_index": 76,
+      "cost_of_living_index": 56,
+      "growth_rate_yoy": "+18.4%",
+      "primary_strengths": [
+        "Robotics & Automation",
+        "Mechanical Precision Engineering",
+        "EV Hardware",
+        "AgriTech Systems"
+      ],
+      "prominent_zones": [
+        "TIDEL Park Coimbatore",
+        "Kurichi Industrial Estate",
+        "Saravanampatti Tech Zone"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+/**
+ * PRISM Engine - Mock Backend Data Repository
+ * Assumed backend contract structure for PRISM AI Career Guidance Engine
+ */
+
+export const MOCK_PRISM_DATA = {
+  "ai_engineer": {
+    "career": "AI Engineer",
+    "career_score": 91,
+    "short_description": "Build intelligent systems, predictive algorithms, machine learning models, and deep learning architectures.",
+    "education_level": "Bachelor's Degree (B.Tech / B.E. / B.Sc CS)",
+    "matching_skills": ["Python", "Problem Solving", "Mathematics", "Technology Interest"],
+    "financial_fit": {
+      "status": "Partially Affordable",
+      "status_code": "partial",
+      "estimated_cost": 650000,
+      "available_budget": 450000,
+      "currency": "₹",
+      "gap": 200000,
+      "action_recommendation": "Partially Affordable. Explore National Scholarship Portal (NSP) or consider low-cost B.Sc Computer Science / BCA alternatives to close the ₹2,00,000 gap."
+    },
+    "quick_stats": {
+      "avg_entry_salary": "₹8.5 - 14 LPA",
+      "industry_growth": "+32% YoY",
+      "hiring_demand": "Very High",
+      "top_locations": "Bengaluru, Hyderabad, Pune, Remote"
+    },
+    "roadmap": [
+      {
+        "step_number": "STEP 01",
+        "title": "Complete 12th / Higher Secondary",
+        "short_description": "Focus on Physics, Chemistry, and Mathematics (PCM) with a minimum 75% aggregate to qualify for top engineering entrances.",
+        "recommended_skills": ["Algebra", "Calculus", "Physics Fundamentals"],
+        "estimated_duration": "Schooling",
+        "status": "completed",
+        "details": {
+          "courses": ["NCERT Class 11 & 12 Mathematics", "JEE Main Foundation Course"],
+          "projects": ["Physics Simulation Project in Python (Optional)"],
+          "checklist": [
+            "Maintain 75%+ score in Class 12 Boards",
+            "Register for JEE Main / CUET Entrance Examinations",
+            "Build baseline math intuition for Linear Algebra"
+          ]
+        }
+      },
+      {
+        "step_number": "STEP 02",
+        "title": "Choose Relevant Degree Path",
+        "short_description": "Enroll in B.Tech / B.E. (CSE, IT, AI & Data Science) or alternative cost-effective paths like B.Sc Computer Science.",
+        "recommended_skills": ["Academic Discipline", "Computer Literacy"],
+        "estimated_duration": "4 Years (3 Years for B.Sc)",
+        "status": "in_progress",
+        "details": {
+          "courses": ["University Computer Science Curriculum", "Data Structures & Algorithms"],
+          "projects": ["Academic Semester Projects"],
+          "checklist": [
+            "Select accredited college with active campus placement cells",
+            "Apply for tuition fee waiver (TFW) or merit scholarships",
+            "Join college tech clubs (ACM, IEEE, GDSC)"
+          ]
+        }
+      },
+      {
+        "step_number": "STEP 03",
+        "title": "Build Programming Foundation",
+        "short_description": "Master core object-oriented programming, algorithm analysis, and clean code practices using Python and C++.",
+        "recommended_skills": ["Python 3", "Data Structures", "Algorithms", "Git & GitHub"],
+        "estimated_duration": "3–4 months",
+        "status": "in_progress",
+        "details": {
+          "courses": ["CS50x: Introduction to Computer Science", "Python for Everybody (University of Michigan)"],
+          "projects": ["Command Line Interface Utility", "Automated Web Scraper"],
+          "checklist": [
+            "Solve 100+ problems on LeetCode / HackerRank",
+            "Create a clean GitHub profile and publish code",
+            "Master Version Control (Git commits, branching)"
+          ]
+        }
+      },
+      {
+        "step_number": "STEP 04",
+        "title": "Learn AI & Math Fundamentals",
+        "short_description": "Master linear algebra, probability, vector calculus, statistical inference, and classical Machine Learning algorithms.",
+        "recommended_skills": ["NumPy", "Pandas", "Scikit-Learn", "Applied Statistics"],
+        "estimated_duration": "3–4 months",
+        "status": "not_started",
+        "details": {
+          "courses": ["Andrew Ng's Machine Learning Specialization (Coursera)", "Mathematics for Machine Learning (Imperial College London)"],
+          "projects": ["Housing Price Prediction Model", "Customer Churn Classifier"],
+          "checklist": [
+            "Implement Regression and Classification algorithms from scratch",
+            "Perform Exploratory Data Analysis (EDA) on Kaggle datasets",
+            "Understand Precision, Recall, F1-Score, and ROC-AUC metrics"
+          ]
+        }
+      },
+      {
+        "step_number": "STEP 05",
+        "title": "Advanced Skills: Deep Learning & NLP",
+        "short_description": "Explore Neural Networks, Convolutional Networks (CNNs), Transformers, Natural Language Processing, and LLM fine-tuning.",
+        "recommended_skills": ["PyTorch / TensorFlow", "Computer Vision", "Transformers", "LLM APIs"],
+        "estimated_duration": "4–5 months",
+        "status": "not_started",
+        "details": {
+          "courses": ["DeepLearning.AI Neural Networks & Deep Learning", "Hugging Face NLP Course"],
+          "projects": ["Medical Image Segmentation Model", "Custom RAG AI Chatbot with LangChain"],
+          "checklist": [
+            "Train a deep neural network on GPU (Google Colab / Kaggle)",
+            "Fine-tune an open-weight LLM (Llama 3 / Mistral)",
+            "Understand vector databases (ChromaDB / Pinecone)"
+          ]
+        }
+      },
+      {
+        "step_number": "STEP 06",
+        "title": "Build Practical Projects Portfolio",
+        "short_description": "Develop 2–4 production-ready, full-stack AI applications with web endpoints and deploy them live.",
+        "recommended_skills": ["FastAPI", "Docker", "Streamlit", "Model Deployment"],
+        "estimated_duration": "2–3 months",
+        "status": "not_started",
+        "details": {
+          "courses": ["Full Stack Deep Learning", "MLOps Zoomcamp (DataTalks.Club)"],
+          "projects": ["Real-time Defect Detection System", "Personalized AI Study Assistant App"],
+          "checklist": [
+            "Containerize models using Docker",
+            "Deploy AI API endpoints on AWS / Hugging Face Spaces / Render",
+            "Record 2-minute video demos for LinkedIn"
+          ]
+        }
+      },
+      {
+        "step_number": "STEP 07",
+        "title": "Gain Industry Internship Experience",
+        "short_description": "Apply for summer internships, open-source programs (GSoC), or research assistant roles to work on real dataset pipelines.",
+        "recommended_skills": ["Agile Teamwork", "MLOps Pipelines", "System Integration"],
+        "estimated_duration": "3–6 months",
+        "status": "not_started",
+        "details": {
+          "courses": ["Open Source Contribution Workflows"],
+          "projects": ["Production Pipeline Refactoring"],
+          "checklist": [
+            "Prepare tailored AI resume highlighting GitHub projects",
+            "Apply via LinkedIn, Internshala, and Y Combinator Work at a Startup",
+            "Contribute to open-source AI frameworks (LangChain, HuggingFace)"
+          ]
+        }
+      },
+      {
+        "step_number": "STEP 08",
+        "title": "Acquire Industry Certifications",
+        "short_description": "Validate your expertise with recognized cloud and machine learning certifications.",
+        "recommended_skills": ["Cloud AI Services", "MLOps Practices"],
+        "estimated_duration": "1–2 months",
+        "status": "not_started",
+        "details": {
+          "courses": ["AWS Certified Machine Learning - Specialty Prep", "TensorFlow Developer Certification Guide"],
+          "projects": ["Cloud Pipeline Deployment"],
+          "checklist": [
+            "Pass AWS Certified Machine Learning Specialty or GCP Professional ML Engineer",
+            "Add badge to LinkedIn and Resume"
+          ]
+        }
+      },
+      {
+        "step_number": "STEP 09",
+        "title": "Apply for AI Engineer Job Roles",
+        "short_description": "Target entry-level AI Engineer, ML Engineer, Data Scientist, or AI Research Associate positions.",
+        "recommended_skills": ["System Design", "Behavioral Interview", "Technical Presentation"],
+        "estimated_duration": "Job Search Phase",
+        "status": "not_started",
+        "details": {
+          "courses": ["Machine Learning System Design Interview Prep"],
+          "projects": ["Comprehensive Portfolio Website"],
+          "checklist": [
+            "Prepare for Live Coding and System Design rounds",
+            "Network with Senior AI Engineers and Tech Lead Managers",
+            "Secure entry-level job offer as AI/ML Engineer"
+          ]
+        }
+      }
+    ],
+    "skills": {
+      "foundation": [
+        { "name": "Programming Fundamentals", "progress": 85, "status": "Mastered", "level": "high" },
+        { "name": "Linear Algebra & Calculus", "progress": 75, "status": "Strong", "level": "high" },
+        { "name": "Problem Solving & Logic", "progress": 80, "status": "Strong", "level": "high" }
+      ],
+      "core": [
+        { "name": "Python & Data Science Libraries", "progress": 80, "status": "In Progress", "level": "high" },
+        { "name": "Probability & Applied Statistics", "progress": 70, "status": "In Progress", "level": "medium" },
+        { "name": "Data Structures & Algorithms", "progress": 65, "status": "In Progress", "level": "medium" },
+        { "name": "Machine Learning Algorithms", "progress": 60, "status": "In Progress", "level": "medium" }
+      ],
+      "advanced": [
+        { "name": "Deep Learning & Neural Networks", "progress": 35, "status": "Target Skill", "level": "low" },
+        { "name": "Natural Language Processing (NLP)", "progress": 25, "status": "Target Skill", "level": "low" },
+        { "name": "Computer Vision", "progress": 20, "status": "Target Skill", "level": "low" },
+        { "name": "Model Deployment & MLOps", "progress": 15, "status": "Target Skill", "level": "low" }
+      ]
+    },
+    "exams": [
+      {
+        "id": "jee_main",
+        "name": "JEE Main",
+        "stream": "Engineering",
+        "purpose": "Admissions to NITs, IIITs, CFTIs, and qualifying for JEE Advanced.",
+        "eligibility": "Passed/appearing 12th with Physics, Chemistry & Mathematics.",
+        "level": "National Level",
+        "application_period": "Nov - Dec (Session 1) / Feb - Mar (Session 2)",
+        "official_url": "https://jeemain.nta.ac.in/",
+        "why_it_matters": "Primary Gateway for top-tier Indian Engineering colleges with high campus placements in AI companies."
+      },
+      {
+        "id": "jee_advanced",
+        "name": "JEE Advanced",
+        "stream": "Engineering",
+        "purpose": "Admissions to premier Indian Institutes of Technology (IITs).",
+        "eligibility": "Top 2,50,000 qualifiers of JEE Main Paper 1.",
+        "level": "National Level",
+        "application_period": "April - May",
+        "official_url": "https://jeeadv.ac.in/",
+        "why_it_matters": "Unlocks world-class AI research labs and top global tech recruiters."
+      },
+      {
+        "id": "bitsat",
+        "name": "BITSAT",
+        "stream": "Engineering",
+        "purpose": "Admissions to BITS Pilani, Goa, and Hyderabad Campuses.",
+        "eligibility": "12th PCM with 75% aggregate & 60% in each subject.",
+        "level": "National Level",
+        "application_period": "Jan - April",
+        "official_url": "https://www.bitsadmission.com/",
+        "why_it_matters": "Top tier private institution with zero attendance policy and strong AI startup culture."
+      },
+      {
+        "id": "cuet_ug",
+        "name": "CUET UG",
+        "stream": "Science / Computer Apps",
+        "purpose": "Admissions to Central Universities (DU, BHU, JNU) for B.Sc CS / BCA.",
+        "eligibility": "Passed/appearing 12th in relevant stream.",
+        "level": "National Level",
+        "application_period": "Feb - March",
+        "official_url": "https://cuetug.ntaonline.in/",
+        "why_it_matters": "Extremely affordable alternative pathway into prestigious Central Universities."
+      }
+    ],
+    "scholarships": [
+      {
+        "id": "nsp_central",
+        "name": "Central Sector Scheme (NSP)",
+        "provider": "Ministry of Education, Govt of India",
+        "eligibility": "Above 80th percentile in 12th Board + Family income < ₹4.5 Lakh/yr.",
+        "benefit": "₹12,000 - ₹20,000 per year for degree duration",
+        "deadline": "October - December (Check Portal)",
+        "apply_url": "https://scholarships.gov.in/",
+        "why_eligible": "Matches student income profile and high 12th merit standing."
+      },
+      {
+        "id": "reliance_ug",
+        "name": "Reliance Foundation Undergraduate Scholarship",
+        "provider": "Reliance Foundation",
+        "eligibility": "First-year undergraduate students in STEM + Household income < ₹15 Lakhs.",
+        "benefit": "Up to ₹2,00,000 over degree duration",
+        "deadline": "October 06 (Annual Cycle)",
+        "apply_url": "https://www.scholarships.reliancefoundation.org/",
+        "why_eligible": "High financial aid grant aimed at STEM students pursuing AI & Tech."
+      },
+      {
+        "id": "pragati_aicte",
+        "name": "AICTE Pragati Scholarship for Girls",
+        "provider": "AICTE / Govt of India",
+        "eligibility": "Female students admitted to 1st year B.Tech/Diploma + Income < ₹8 Lakhs.",
+        "benefit": "₹50,000 per annum towards tuition and incidental expenses",
+        "deadline": "November - December",
+        "apply_url": "https://www.aicte-india.org/",
+        "why_eligible": "Dedicated financial empowerment grant for women in tech."
+      }
+    ],
+    "alternative_pathways": [
+      {
+        "id": "primary_path",
+        "type": "Primary Recommended Path",
+        "is_primary": true,
+        "title": "B.Tech Computer Science (AI Specialization)",
+        "cost_level": "High (₹6L - ₹12L Total)",
+        "difficulty": "Moderate - High",
+        "duration": "4 Years",
+        "advantages": "Structured campus placements, hardware labs, traditional industry recognition.",
+        "trade_offs": "Higher tuition fees; rigid curriculum schedule.",
+        "next_step": "Prepare for JEE Main & State CETs."
+      },
+      {
+        "id": "alt_bsc_cs",
+        "type": "Alternative Path 01",
+        "is_primary": false,
+        "title": "B.Sc Computer Science + Self-Paced AI Bootcamps",
+        "cost_level": "Low (₹1.2L - ₹2.5L Total)",
+        "difficulty": "Self-Driven",
+        "duration": "3 Years",
+        "advantages": "Substantially lower tuition fees; 1 year saved; flexible study hours.",
+        "trade_offs": "Requires self-discipline for online AI projects.",
+        "next_step": "Apply via CUET UG / State University Merit List."
+      },
+      {
+        "id": "alt_bca",
+        "type": "Alternative Path 02",
+        "is_primary": false,
+        "title": "BCA (Bachelor of Computer Applications) + Cloud Certs",
+        "cost_level": "Moderate (₹2L - ₹3.5L Total)",
+        "difficulty": "Accessible",
+        "duration": "3 Years",
+        "advantages": "Strong application software foundation; affordable; easy eligibility.",
+        "trade_offs": "May require MCA or strong portfolio for top AI R&D labs.",
+        "next_step": "Enroll in local accredited college + Coursera AI track."
+      },
+      {
+        "id": "alt_online_bs",
+        "type": "Alternative Path 03",
+        "is_primary": false,
+        "title": "IIT Madras Online BS in Data Science & Programming",
+        "cost_level": "Very Low (₹1L - ₹2L Flexible Pay-per-subject)",
+        "difficulty": "High Rigor",
+        "duration": "3–4 Years (Flexible)",
+        "advantages": "Direct IIT quality education; study alongside job/local college; highly practical.",
+        "trade_offs": "Fully online; requires high self-motivation.",
+        "next_step": "Register for Qualifier Exam on IIT Madras Portal."
+      }
+    ],
+    "milestones": [
+      { "step": "12th Grade Completion", "status": "Completed", "done": true, "action": "Scored 85%+ in PCM" },
+      { "step": "Degree Admission", "status": "In Progress", "done": false, "action": "Selecting college program" },
+      { "step": "Core Programming Skills", "status": "In Progress", "done": false, "action": "Mastering Python & DS" },
+      { "step": "AI Project Portfolio", "status": "Next Milestone", "done": false, "action": "Build 3 GitHub AI repos" },
+      { "step": "Industry Certification", "status": "Upcoming", "done": false, "action": "AWS ML Specialty" },
+      { "step": "AI Internship", "status": "Upcoming", "done": false, "action": "Apply to tech startups" },
+      { "step": "Entry AI Engineer Job", "status": "Goal", "done": false, "action": "Achieve ₹10+ LPA Role" }
+    ],
+    "next_steps": [
+      "Strengthen Python fundamentals & object-oriented principles.",
+      "Start Machine Learning Math (Linear Algebra & Applied Statistics).",
+      "Build one end-to-end Machine Learning web application.",
+      "Explore National Scholarship Portal (NSP) for tuition support.",
+      "Target summer AI internships or open-source contributions."
+    ]
+  },
+
+  "data_scientist": {
+    "career": "Data Scientist",
+    "career_score": 88,
+    "short_description": "Analyze large complex datasets, discover business insights, build predictive models, and drive data-driven decision making.",
+    "education_level": "Bachelor's Degree (B.Sc Stats / B.Tech CSE / BCA)",
+    "matching_skills": ["Mathematics", "Statistics", "Python", "Business Acumen"],
+    "financial_fit": {
+      "status": "Good Financial Fit",
+      "status_code": "good",
+      "estimated_cost": 350000,
+      "available_budget": 450000,
+      "currency": "₹",
+      "gap": 0,
+      "action_recommendation": "Good Financial Fit. Estimated education expenses fit comfortably within your available family budget."
+    },
+    "quick_stats": {
+      "avg_entry_salary": "₹7.5 - 12 LPA",
+      "industry_growth": "+28% YoY",
+      "hiring_demand": "High",
+      "top_locations": "Bengaluru, Mumbai, Gurgaon, Remote"
+    },
+    "roadmap": [
+      {
+        "step_number": "STEP 01",
+        "title": "Complete 12th Science / Commerce with Math",
+        "short_description": "Focus on Mathematics and Statistics with a strong foundation in data analysis.",
+        "recommended_skills": ["Statistics", "Calculus", "Data Interpretation"],
+        "estimated_duration": "Schooling",
+        "status": "completed",
+        "details": {
+          "courses": ["NCERT Class 12 Statistics", "Basic Excel Data Analysis"],
+          "projects": [],
+          "checklist": ["Complete 12th with 70%+ score", "Build mathematical intuition"]
+        }
+      },
+      {
+        "step_number": "STEP 02",
+        "title": "Choose Degree (B.Sc Statistics / B.Tech / BCA)",
+        "short_description": "Enroll in a quantitative degree focused on statistics, math, or computer applications.",
+        "recommended_skills": ["Statistical Modeling", "Database Systems"],
+        "estimated_duration": "3–4 Years",
+        "status": "in_progress",
+        "details": {
+          "courses": ["Probability Theory", "Linear Models", "DBMS & SQL"],
+          "projects": [],
+          "checklist": ["Maintain 7.5+ CGPA", "Learn relational databases"]
+        }
+      },
+      {
+        "step_number": "STEP 03",
+        "title": "Master Data Wrangling (Python & SQL)",
+        "short_description": "Learn SQL queries, Pandas, Data Cleaning, Visualization (Seaborn, Matplotlib, PowerBI).",
+        "recommended_skills": ["SQL", "Pandas", "Power BI / Tableau"],
+        "estimated_duration": "3 months",
+        "status": "in_progress",
+        "details": {
+          "courses": ["Google Data Analytics Professional Certificate"],
+          "projects": ["E-Commerce Sales Insights Dashboard"],
+          "checklist": ["Solve 50+ SQL queries on HackerRank", "Create interactive dashboard"]
+        }
+      }
+    ],
+    "skills": {
+      "foundation": [
+        { "name": "Applied Probability & Statistics", "progress": 85, "status": "Mastered", "level": "high" },
+        { "name": "Linear Algebra", "progress": 80, "status": "Strong", "level": "high" }
+      ],
+      "core": [
+        { "name": "Python & SQL", "progress": 75, "status": "In Progress", "level": "high" },
+        { "name": "Exploratory Data Analysis", "progress": 70, "status": "In Progress", "level": "medium" }
+      ],
+      "advanced": [
+        { "name": "Predictive Modeling", "progress": 40, "status": "Target Skill", "level": "low" },
+        { "name": "Big Data Technologies (Spark)", "progress": 20, "status": "Target Skill", "level": "low" }
+      ]
+    },
+    "exams": [
+      {
+        "id": "cuet_pg",
+        "name": "CUET PG / ISI Admission Test",
+        "stream": "Statistics & Data Science",
+        "purpose": "Admissions to Indian Statistical Institute (ISI) & Central Universities.",
+        "eligibility": "Bachelor degree with Statistics/Math background.",
+        "level": "National Level",
+        "application_period": "Feb - March",
+        "official_url": "https://www.isical.ac.in/",
+        "why_it_matters": "Premier statistical institute in Asia with elite research and salary packages."
+      }
+    ],
+    "scholarships": [
+      {
+        "id": "nsp_central",
+        "name": "Central Sector Scheme (NSP)",
+        "provider": "Govt of India",
+        "eligibility": "Income < ₹4.5L",
+        "benefit": "₹12,000/yr",
+        "deadline": "Dec 31",
+        "apply_url": "https://scholarships.gov.in/",
+        "why_eligible": "Eligible"
+      }
+    ],
+    "alternative_pathways": [
+      {
+        "id": "alt_bsc_stats",
+        "type": "Primary Path",
+        "is_primary": true,
+        "title": "B.Sc Statistics & Data Science",
+        "cost_level": "Low (₹1.5L Total)",
+        "difficulty": "Moderate",
+        "duration": "3 Years",
+        "advantages": "Deep mathematical foundation; affordable tuition.",
+        "trade_offs": "Requires hands-on programming self-learning.",
+        "next_step": "Apply via State University Portal."
+      }
+    ],
+    "milestones": [
+      { "step": "12th Grade Completion", "status": "Completed", "done": true, "action": "Math background verified" },
+      { "step": "Degree Enrolled", "status": "In Progress", "done": false, "action": "B.Sc Statistics" },
+      { "step": "SQL & Python Mastery", "status": "Next Milestone", "done": false, "action": "Data Wrangling" }
+    ],
+    "next_steps": [
+      "Master Advanced SQL joins, window functions, and indexing.",
+      "Complete Google Data Analytics Professional Certificate.",
+      "Build a Kaggle exploratory data analysis portfolio project."
+    ]
+  }
+};

@@ -1,0 +1,1336 @@
+{
+  "metadata": {
+    "module_owner": "Jaishwa",
+    "module_name": "Career & Job Market Intelligence",
+    "project": "PRISM Engine \u2014 Multi-Dimensional STEAM Career Guidance",
+    "last_updated": "Q1 2026",
+    "data_nature": "Synthetic Market Intelligence for Prototype Demonstration",
+    "status": "Demo / Synthetic Baseline (Ready for Production API Connector)",
+    "total_careers": 12,
+    "supported_locations": [
+      "Chennai",
+      "Coimbatore",
+      "Bengaluru",
+      "Hyderabad",
+      "Pune",
+      "Mumbai",
+      "Delhi NCR"
+    ]
+  },
+  "sources": [
+    "NASSCOM FutureSkills Prime Talent Study 2025-2026",
+    "TeamLease Digital Annual Employment & Salary Benchmark",
+    "India Skills Report 2025/2026",
+    "World Economic Forum: Future of Jobs"
+  ],
+  "careers": [
+    {
+      "career_id": "ai-engineer",
+      "career_name": "AI Engineer",
+      "category": "Artificial Intelligence & Data",
+      "short_description": "Designs, trains, and operationalizes state-of-the-art neural architectures, LLMs, and computer vision systems into scalable enterprise applications.",
+      "market_demand_score": 94,
+      "market_demand_label": "Very High",
+      "future_growth_score": 92,
+      "future_growth_rate": "+34% through 2030",
+      "industry_growth_score": 90,
+      "location_demand_score": 91,
+      "salary_potential": "High",
+      "salary_range": {
+        "entry_level": "Rs 7.5 - 12 LPA",
+        "mid_level": "Rs 16 - 26 LPA",
+        "senior_level": "Rs 32 - 55+ LPA",
+        "average_lpa": 18.5,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 7.5 - 12 LPA",
+          "focus": "Model fine-tuning, pipeline scripting, API integration"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 16 - 26 LPA",
+          "focus": "Distributed training, LLMOps, vector search, latency optimization"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 32 - 55+ LPA",
+          "focus": "AI system architecture, multi-modal systems, patentable R&D"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Python",
+          "PyTorch / TensorFlow",
+          "Transformer Models / LLMs",
+          "LangChain / LlamaIndex",
+          "Vector Databases (Milvus, Pinecone)",
+          "MLOps & Docker",
+          "Mathematics & Linear Algebra"
+        ],
+        "soft_skills": [
+          "Algorithmic Reasoning",
+          "Research Synthesis",
+          "Ethical AI Stewardship",
+          "Cross-Functional Translation"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 96,
+          "ecosystem_notes": "Premier AI R&D labs, global GCCs, generative AI startups"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "High",
+          "score": 91,
+          "ecosystem_notes": "Hyperscale cloud AI centers, enterprise product hubs"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "High",
+          "score": 88,
+          "ecosystem_notes": "SaaS AI workflows, deep learning in manufacturing & vision"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "Moderate",
+          "score": 78,
+          "ecosystem_notes": "Automotive AI, ADAS, and embedded vision systems"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "High",
+          "score": 85,
+          "ecosystem_notes": "FinTech risk models, algorithmic trading, conversational AI"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 86,
+          "ecosystem_notes": "Consumer AI, logistics optimization, e-commerce"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "Medium",
+          "score": 68,
+          "ecosystem_notes": "Industrial automation vision & smart textile sensors"
+        }
+      ],
+      "industry_sectors": [
+        "Enterprise Software / SaaS",
+        "BFSI & FinTech",
+        "Healthcare & Life Sciences",
+        "Autonomous Mobility",
+        "E-Commerce & Retail"
+      ],
+      "market_outlook": "Accelerating demand driven by enterprise generative AI adoption, agentic automation, and domestic GCC investments in India. High talent scarcity for engineers proficient in deploying production-grade LLMs.",
+      "prism_fit_rationale": "Exceptional market demand and rapid industry expansion make AI Engineering a cornerstone STEAM career with outstanding salary progression across India major tier-1 hubs.",
+      "data_source": "NASSCOM FutureSkills & TeamLease Tech 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "data-scientist",
+      "career_name": "Data Scientist",
+      "category": "Artificial Intelligence & Data",
+      "short_description": "Transforms raw enterprise and scientific datasets into predictive intelligence, statistical models, and decision analytics.",
+      "market_demand_score": 90,
+      "market_demand_label": "High",
+      "future_growth_score": 88,
+      "future_growth_rate": "+29% through 2030",
+      "industry_growth_score": 87,
+      "location_demand_score": 89,
+      "salary_potential": "High",
+      "salary_range": {
+        "entry_level": "Rs 6.5 - 10.5 LPA",
+        "mid_level": "Rs 14 - 23 LPA",
+        "senior_level": "Rs 28 - 48+ LPA",
+        "average_lpa": 16.2,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 6.5 - 10.5 LPA",
+          "focus": "EDA, SQL queries, feature engineering, baseline regression/trees"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 14 - 23 LPA",
+          "focus": "Advanced predictive modeling, causal inference, A/B experiment design"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 28 - 48+ LPA",
+          "focus": "Enterprise data strategy, executive predictive intelligence, ML architecture"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Python / R",
+          "SQL & Data Warehousing",
+          "Statistical Modeling & Probability",
+          "Scikit-Learn",
+          "Feature Engineering",
+          "Tableau / PowerBI",
+          "Big Data (Spark)"
+        ],
+        "soft_skills": [
+          "Data Storytelling",
+          "Hypothesis-Driven Thinking",
+          "Business Domain Acumen",
+          "Stakeholder Communication"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 95,
+          "ecosystem_notes": "Global capability centers, analytics consultancies, unicorns"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "Very High",
+          "score": 92,
+          "ecosystem_notes": "Banking, wealth management, insurance risk analytics"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "High",
+          "score": 89,
+          "ecosystem_notes": "Pharma analytics, life science bioinformatics, SaaS"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "High",
+          "score": 86,
+          "ecosystem_notes": "Fintech, auto manufacturing telemetry, telecom analytics"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 87,
+          "ecosystem_notes": "Consumer analytics, D2C retail, consulting practices"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "Moderate",
+          "score": 79,
+          "ecosystem_notes": "Automotive reliability analytics, manufacturing IoT"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "Medium",
+          "score": 65,
+          "ecosystem_notes": "Manufacturing yield analytics, regional IT services"
+        }
+      ],
+      "industry_sectors": [
+        "Banking & Financial Services",
+        "E-Commerce & Digital Media",
+        "Pharma & Biotech",
+        "Logistics & Supply Chain",
+        "Consulting & Advisory"
+      ],
+      "market_outlook": "Steady and mature high-tier demand. Organizations are transitioning from pure descriptive dashboards to prescriptive machine-learning systems, increasing value for data scientists with strong domain grounding.",
+      "prism_fit_rationale": "Strong synergy between mathematics and commercial applicability. Offers wide cross-industry flexibility with sustained above-average compensation.",
+      "data_source": "India Skills Report 2025 & NASSCOM",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "cyber-security-engineer",
+      "career_name": "Cyber Security Engineer",
+      "category": "Security & Infrastructure",
+      "short_description": "Architects resilient zero-trust defenses, conducts proactive vulnerability exploitation, and mitigates digital threats across mission-critical networks.",
+      "market_demand_score": 92,
+      "market_demand_label": "Very High",
+      "future_growth_score": 94,
+      "future_growth_rate": "+36% through 2030",
+      "industry_growth_score": 91,
+      "location_demand_score": 88,
+      "salary_potential": "High",
+      "salary_range": {
+        "entry_level": "Rs 6.0 - 11 LPA",
+        "mid_level": "Rs 15 - 25 LPA",
+        "senior_level": "Rs 30 - 52+ LPA",
+        "average_lpa": 17.0,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 6.0 - 11 LPA",
+          "focus": "SOC monitoring, network scans, SIEM analysis, incident alerts"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 15 - 25 LPA",
+          "focus": "Penetration testing, cloud IAM security, threat hunting, DevSecOps"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 30 - 52+ LPA",
+          "focus": "Zero-trust architecture, regulatory compliance (ISO/DPDP), CISO advisory"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Network Security & Protocols",
+          "SIEM Tools (Splunk, Sentinel)",
+          "Ethical Hacking & Burp Suite",
+          "Cloud Security (AWS/Azure IAM)",
+          "Cryptography",
+          "Linux Kernel & Shell Scripting",
+          "Incident Response"
+        ],
+        "soft_skills": [
+          "Crisis Management",
+          "Adversarial Thinking",
+          "Integrity & Ethics",
+          "Root Cause Investigation"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 93,
+          "ecosystem_notes": "Global SOC hubs, enterprise cloud security vendors"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "Very High",
+          "score": 92,
+          "ecosystem_notes": "Government security infrastructure, defense tech, cloud security"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "Very High",
+          "score": 94,
+          "ecosystem_notes": "RBI compliance centers, stock exchange cybersecurity, fintech"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 89,
+          "ecosystem_notes": "Public sector cyber defense, national infrastructure, aerospace"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "High",
+          "score": 85,
+          "ecosystem_notes": "SaaS data protection, banking back-offices, automotive telemetry security"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "Moderate",
+          "score": 77,
+          "ecosystem_notes": "Automotive ECU security, smart city sensors"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "Medium",
+          "score": 62,
+          "ecosystem_notes": "Industrial SCADA network defense, regional IT security"
+        }
+      ],
+      "industry_sectors": [
+        "Banking & Capital Markets",
+        "Defense & Aerospace",
+        "Healthcare Infrastructure",
+        "Telecommunications",
+        "SaaS Cloud Platforms"
+      ],
+      "market_outlook": "Paramount demand propelled by strict data protection regulations (India DPDP Act), rising ransomware sophistication, and widespread cloud migrations.",
+      "prism_fit_rationale": "Virtually recession-proof career discipline with soaring demand across both government infrastructure and commercial enterprises.",
+      "data_source": "DSCI (Data Security Council of India) & TeamLease 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "cloud-engineer",
+      "career_name": "Cloud Engineer",
+      "category": "Security & Infrastructure",
+      "short_description": "Constructs and scales automated multi-cloud infrastructure, Kubernetes clusters, and fault-tolerant CI/CD platforms for global software operations.",
+      "market_demand_score": 91,
+      "market_demand_label": "Very High",
+      "future_growth_score": 89,
+      "future_growth_rate": "+27% through 2030",
+      "industry_growth_score": 88,
+      "location_demand_score": 90,
+      "salary_potential": "High",
+      "salary_range": {
+        "entry_level": "Rs 5.5 - 9.5 LPA",
+        "mid_level": "Rs 13 - 22 LPA",
+        "senior_level": "Rs 26 - 45+ LPA",
+        "average_lpa": 15.5,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 5.5 - 9.5 LPA",
+          "focus": "Cloud provisioning, shell scripting, monitoring (CloudWatch/Prometheus)"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 13 - 22 LPA",
+          "focus": "Kubernetes orchestration, Terraform IaC, multi-region CI/CD pipelines"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 26 - 45+ LPA",
+          "focus": "Enterprise cloud architecture, FinOps, hybrid cloud governance"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "AWS / Azure / GCP",
+          "Kubernetes & Docker",
+          "Terraform (IaC)",
+          "CI/CD (GitHub Actions, GitLab)",
+          "Linux Systems Administration",
+          "Networking & DNS/VPC",
+          "Python / Go Scripting"
+        ],
+        "soft_skills": [
+          "Reliability Mindset",
+          "Systemic Troubleshooting",
+          "Cost Optimization Discipline",
+          "Team Collaboration"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 95,
+          "ecosystem_notes": "Epicenter of hyperscale cloud deployments and SaaS unicorns"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "Very High",
+          "score": 93,
+          "ecosystem_notes": "Major AWS, Microsoft, and Google data center investments"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "High",
+          "score": 89,
+          "ecosystem_notes": "Undersea cable landings, enterprise cloud transformation centers"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "High",
+          "score": 84,
+          "ecosystem_notes": "Enterprise migration factories, industrial cloud IoT"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "High",
+          "score": 88,
+          "ecosystem_notes": "Fintech high-frequency trading cloud infra, media clouds"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 87,
+          "ecosystem_notes": "Public cloud procurement, telecom 5G cloud networks"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "Medium",
+          "score": 66,
+          "ecosystem_notes": "SME cloud migration, managed service providers"
+        }
+      ],
+      "industry_sectors": [
+        "Information Technology",
+        "Telecommunications",
+        "BFSI",
+        "Media Streaming & Gaming",
+        "E-Commerce"
+      ],
+      "market_outlook": "Ubiquitous foundation for all modern software. High demand shifted toward Cloud Native, Kubernetes, and FinOps (cost-efficiency) specialists.",
+      "prism_fit_rationale": "Consistently high baseline demand with robust opportunities across every major IT employer and tech startup in India.",
+      "data_source": "NASSCOM Cloud Adoption Index & LinkedIn Emerging Jobs 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "robotics-engineer",
+      "career_name": "Robotics Engineer",
+      "category": "Core & Autonomous Engineering",
+      "short_description": "Synthesizes mechanical kinesthetics, embedded electronics, and perception algorithms to build autonomous mobile robots and precision industrial arms.",
+      "market_demand_score": 85,
+      "market_demand_label": "High",
+      "future_growth_score": 93,
+      "future_growth_rate": "+32% through 2030",
+      "industry_growth_score": 89,
+      "location_demand_score": 84,
+      "salary_potential": "High",
+      "salary_range": {
+        "entry_level": "Rs 5.0 - 9.0 LPA",
+        "mid_level": "Rs 12 - 20 LPA",
+        "senior_level": "Rs 24 - 42+ LPA",
+        "average_lpa": 14.5,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 5.0 - 9.0 LPA",
+          "focus": "ROS node integration, CAD drafting, micro-controller wiring (STM32/ESP32)"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 12 - 20 LPA",
+          "focus": "SLAM mapping, sensor fusion (LiDAR/IMU), trajectory optimization"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 24 - 42+ LPA",
+          "focus": "Autonomous fleet architecture, robotic workcell safety certification"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Robot Operating System (ROS / ROS2)",
+          "C++ & Python",
+          "Sensor Fusion (LiDAR, Camera, IMU)",
+          "Kinematics & Dynamics",
+          "Embedded C / microcontrollers",
+          "Computer Vision (OpenCV)",
+          "SolidWorks / Fusion 360"
+        ],
+        "soft_skills": [
+          "Hardware-Software Debugging",
+          "Spatial Imagination",
+          "Safety Protocol Rigor",
+          "Multidisciplinary Collaboration"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 91,
+          "ecosystem_notes": "Warehouse robotics (GreyOrange, Addverb), defense UAV startups"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "Very High",
+          "score": 90,
+          "ecosystem_notes": "Automotive assembly robotics (Hyundai, BMW, Foxconn factories)"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "High",
+          "score": 88,
+          "ecosystem_notes": "Heavy robotics, precision welding, factory automation"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "High",
+          "score": 82,
+          "ecosystem_notes": "Textile automation machinery, motor drives, precision machining"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 83,
+          "ecosystem_notes": "Logistics robotics, drone delivery testbeds (Noida)"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "Moderate",
+          "score": 76,
+          "ecosystem_notes": "Surgical robotics research, pharma cleanroom robotics"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "Moderate",
+          "score": 75,
+          "ecosystem_notes": "Industrial equipment distribution, maritime automation"
+        }
+      ],
+      "industry_sectors": [
+        "Warehousing & Supply Chain",
+        "Automotive Manufacturing",
+        "Defense & Aerospace",
+        "Electronics EMS (Foxconn, Pegatron)",
+        "Healthcare & Surgery"
+      ],
+      "market_outlook": "Huge momentum from India push for industrial automation, domestic drone manufacturing, and e-commerce warehouse fulfillment robots.",
+      "prism_fit_rationale": "Blends physical hardware with intelligent software; prime option for students who love both mechanical building and coding.",
+      "data_source": "Robotics Society of India & TeamLease Manufacturing Outlook 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "mechanical-engineer",
+      "career_name": "Mechanical Engineer",
+      "category": "Core & Autonomous Engineering",
+      "short_description": "Applies thermodynamics, fluid mechanics, and structural materials science to develop high-performance industrial machinery, HVAC, and power engines.",
+      "market_demand_score": 78,
+      "market_demand_label": "Moderate",
+      "future_growth_score": 74,
+      "future_growth_rate": "+12% through 2030",
+      "industry_growth_score": 75,
+      "location_demand_score": 81,
+      "salary_potential": "Moderate",
+      "salary_range": {
+        "entry_level": "Rs 3.8 - 6.5 LPA",
+        "mid_level": "Rs 8.5 - 15 LPA",
+        "senior_level": "Rs 18 - 30+ LPA",
+        "average_lpa": 10.2,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 3.8 - 6.5 LPA",
+          "focus": "2D/3D CAD drafting, tolerance calculations, shop floor inspection"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 8.5 - 15 LPA",
+          "focus": "FEA structural analysis, CFD simulation, DFM (Design for Manufacturing)"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 18 - 30+ LPA",
+          "focus": "Product lifecycle management (PLM), plant engineering, capital R&D"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "CAD (SolidWorks, CATIA, AutoCAD)",
+          "FEA / ANSYS Simulation",
+          "Thermodynamics & Heat Transfer",
+          "Material Science & Metallurgy",
+          "GD&T (Geometric Dimensioning)",
+          "Manufacturing Processes (CNC/Additive)",
+          "MATLAB"
+        ],
+        "soft_skills": [
+          "Physical Intuition",
+          "Attention to Standard Compliance",
+          "Vendor Negotiation",
+          "Project Execution"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Chennai",
+          "demand_level": "Very High",
+          "score": 92,
+          "ecosystem_notes": "Detroit of South Asia, auto giants, heavy machinery cluster"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "Very High",
+          "score": 90,
+          "ecosystem_notes": "Tata Motors, Bajaj, Bharat Forge forging & auto hub"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "High",
+          "score": 86,
+          "ecosystem_notes": "World-famous pump manufacturing, foundry casting, machine tools"
+        },
+        {
+          "city": "Bengaluru",
+          "demand_level": "High",
+          "score": 80,
+          "ecosystem_notes": "Aerospace precision engineering (HAL, ISRO vendors)"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 82,
+          "ecosystem_notes": "Maruti Suzuki corridor (Manesar), industrial equipment"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "Moderate",
+          "score": 74,
+          "ecosystem_notes": "Marine engineering, refinery plants, HVAC contracting"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "Moderate",
+          "score": 72,
+          "ecosystem_notes": "Defense labs (DRDO, BDL), heavy electrical equipment"
+        }
+      ],
+      "industry_sectors": [
+        "Automotive & Heavy Commercial",
+        "Aerospace & Defense",
+        "Industrial Automation & Pumps",
+        "HVAC & MEP Systems",
+        "Power & Energy Generation"
+      ],
+      "market_outlook": "Established foundational engineering domain with steady demand. Highest compensation accrues to engineers cross-skilling in digital twins, FEA simulation, and electric mobility integration.",
+      "prism_fit_rationale": "Proven engineering pillar with massive local industrial presence in Tamil Nadu (Chennai & Coimbatore) and Maharashtra.",
+      "data_source": "Confederation of Indian Industry (CII) & AICTE Employment Survey",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "biomedical-engineer",
+      "career_name": "Biomedical Engineer",
+      "category": "Healthcare & Life Sciences",
+      "short_description": "Bridges biological sciences and engineering to design implantable medical devices, diagnostic imaging systems, and smart clinical monitoring hardware.",
+      "market_demand_score": 82,
+      "market_demand_label": "High",
+      "future_growth_score": 89,
+      "future_growth_rate": "+25% through 2030",
+      "industry_growth_score": 88,
+      "location_demand_score": 83,
+      "salary_potential": "Moderate-High",
+      "salary_range": {
+        "entry_level": "Rs 4.2 - 7.5 LPA",
+        "mid_level": "Rs 10 - 17 LPA",
+        "senior_level": "Rs 20 - 36+ LPA",
+        "average_lpa": 12.0,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 4.2 - 7.5 LPA",
+          "focus": "Hospital equipment calibration, biomedical circuit testing, clinical trials QA"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 10 - 17 LPA",
+          "focus": "Biosignal processing (ECG/EEG), regulatory dossiers (CDSCO/FDA), microfluidics"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 20 - 36+ LPA",
+          "focus": "Medical device architecture, AI-assisted diagnostics, patented clinical implants"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Biosignal Processing",
+          "Biomaterials Science",
+          "Medical Imaging Systems (MRI, CT, Ultrasound)",
+          "Embedded Biomedical Sensors",
+          "Regulatory Affairs (ISO 13485, FDA/CDSCO)",
+          "MATLAB & Python",
+          "Microfluidics"
+        ],
+        "soft_skills": [
+          "Patient-Safety Consciousness",
+          "Clinical Empathy",
+          "Interdisciplinary Translation",
+          "Precision Documentation"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Hyderabad",
+          "demand_level": "Very High",
+          "score": 93,
+          "ecosystem_notes": "Genome Valley, medical device park, global pharma R&D"
+        },
+        {
+          "city": "Bengaluru",
+          "demand_level": "High",
+          "score": 88,
+          "ecosystem_notes": "HealthTech AI startups, diagnostic hardware incubators"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "High",
+          "score": 87,
+          "ecosystem_notes": "Major medical tourism capital, hospital chains (Apollo), MedTech R&D"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "High",
+          "score": 84,
+          "ecosystem_notes": "Pharma corporate headquarters, clinical research networks"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 82,
+          "ecosystem_notes": "AIIMS research collaborations, diagnostic instrument importers"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "Moderate",
+          "score": 74,
+          "ecosystem_notes": "Serum Institute biomedical cluster, analytical instrumentation"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "Moderate",
+          "score": 71,
+          "ecosystem_notes": "Super-specialty medical device components, sensor testing"
+        }
+      ],
+      "industry_sectors": [
+        "Medical Device Manufacturing",
+        "Diagnostic & Imaging Technology",
+        "Biotechnology & Pharmaceuticals",
+        "Hospital Clinical Engineering",
+        "Assistive & Rehabilitation Tech"
+      ],
+      "market_outlook": "Rapidly expanding driven by post-pandemic domestic healthcare modernization, national medical device parks, and growing telemedicine IoT demand.",
+      "prism_fit_rationale": "Ideal STEAM career for students passionate about biological human impact combined with cutting-edge electronics and physics.",
+      "data_source": "Association of Indian Medical Device Industry (AiMeD) 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "ui-ux-designer",
+      "career_name": "UI/UX Designer",
+      "category": "Product Design & Creative Tech",
+      "short_description": "Crafts human-centered digital interfaces, design systems, and intuitive user journeys for web, mobile apps, and spatial computing environments.",
+      "market_demand_score": 87,
+      "market_demand_label": "High",
+      "future_growth_score": 85,
+      "future_growth_rate": "+22% through 2030",
+      "industry_growth_score": 84,
+      "location_demand_score": 88,
+      "salary_potential": "High",
+      "salary_range": {
+        "entry_level": "Rs 5.0 - 9.0 LPA",
+        "mid_level": "Rs 12 - 22 LPA",
+        "senior_level": "Rs 25 - 45+ LPA",
+        "average_lpa": 14.8,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 5.0 - 9.0 LPA",
+          "focus": "Wireframing, UI component design, responsive styling, design system tokens"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 12 - 22 LPA",
+          "focus": "User research interviews, interaction prototyping, usability testing, micro-interactions"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 25 - 45+ LPA",
+          "focus": "Product design strategy, cross-platform design systems, UX metrics (CSAT/NPS)"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Figma & FigJam",
+          "Design Systems & Component Libraries",
+          "User Research & Personas",
+          "Interactive Prototyping (Protopie, Framer)",
+          "Information Architecture",
+          "Basic HTML/CSS/Tailwind Understanding",
+          "Accessibility (WCAG 2.2)"
+        ],
+        "soft_skills": [
+          "User Empathy",
+          "Visual Aesthetics & Typography",
+          "Critical Storytelling",
+          "Iterative Feedback Resilience"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 95,
+          "ecosystem_notes": "Consumer apps, fintech design studios, product startups"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "High",
+          "score": 90,
+          "ecosystem_notes": "Media & entertainment apps, banking UX, creative design agencies"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 89,
+          "ecosystem_notes": "D2C brands, e-commerce giants (Gurugram/Noida), EdTech"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "High",
+          "score": 85,
+          "ecosystem_notes": "Enterprise software UX, global capability centers"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "High",
+          "score": 84,
+          "ecosystem_notes": "B2B SaaS design, fintech interfaces, corporate branding"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "Moderate",
+          "score": 79,
+          "ecosystem_notes": "Automotive infotainment UI, enterprise IT solutions"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "Medium",
+          "score": 64,
+          "ecosystem_notes": "Digital marketing agencies, regional SaaS product startups"
+        }
+      ],
+      "industry_sectors": [
+        "B2B SaaS Platforms",
+        "Consumer FinTech & Banking",
+        "E-Commerce & Quick Commerce",
+        "EdTech & Gaming",
+        "Creative Agency & Consultancies"
+      ],
+      "market_outlook": "Strong sustained demand. High premium on designers who can navigate complex B2B workflow simplification and AI-integrated conversational UI paradigms.",
+      "prism_fit_rationale": "Excellent STEAM avenue honoring the Arts (STEAM) dimension; bridges technical psychological ergonomics with high visual creativity.",
+      "data_source": "Design in Tech Report & AIGA / TeamLease Design Index 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "renewable-energy-engineer",
+      "career_name": "Renewable Energy Engineer",
+      "category": "Sustainable Tech & Clean Energy",
+      "short_description": "Engineers utility-scale solar photovoltaic parks, wind turbine arrays, green hydrogen electrolysis, and microgrid energy storage architectures.",
+      "market_demand_score": 88,
+      "market_demand_label": "High",
+      "future_growth_score": 95,
+      "future_growth_rate": "+38% through 2030",
+      "industry_growth_score": 93,
+      "location_demand_score": 85,
+      "salary_potential": "Moderate-High",
+      "salary_range": {
+        "entry_level": "Rs 4.5 - 8.0 LPA",
+        "mid_level": "Rs 11 - 19 LPA",
+        "senior_level": "Rs 22 - 40+ LPA",
+        "average_lpa": 13.5,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 4.5 - 8.0 LPA",
+          "focus": "PVsyst solar yield modeling, wind resource measurement, grid interconnection drafting"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 11 - 19 LPA",
+          "focus": "Substation & inverter design, battery storage integration (BESS), EPC supervision"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 22 - 40+ LPA",
+          "focus": "Green hydrogen systems, national grid stability modeling, IPP project finance engineering"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Solar PV Modeling (PVsyst, Helioscope)",
+          "Wind Resource Assessment",
+          "Battery Energy Storage Systems (BESS)",
+          "Electrical Power Distribution & SCADA",
+          "ETAP / MATLAB Simulink",
+          "Green Hydrogen Electrolysis Fundamentals",
+          "Environmental Impact Assessment"
+        ],
+        "soft_skills": [
+          "Climate Mission Focus",
+          "Field Operations Leadership",
+          "Regulatory Navigations (CEA/CERC)",
+          "Risk Management"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Chennai",
+          "demand_level": "Very High",
+          "score": 92,
+          "ecosystem_notes": "Tamil Nadu wind corridor headquarters, offshore wind initiatives, TANGEDCO tech"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "Very High",
+          "score": 91,
+          "ecosystem_notes": "Corporate clean energy giants (ReNew, Tata Power, NTPC Green, Adani Solar)"
+        },
+        {
+          "city": "Bengaluru",
+          "demand_level": "High",
+          "score": 86,
+          "ecosystem_notes": "Smart grid software, cleantech venture funds, solar SaaS"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "High",
+          "score": 87,
+          "ecosystem_notes": "Energy conglomerates, green bonds financing engineering, Tata Power HQ"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "High",
+          "score": 83,
+          "ecosystem_notes": "Windmill generator manufacturing (Suzlon suppliers), solar pump development"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "High",
+          "score": 81,
+          "ecosystem_notes": "Clean energy equipment fabrication, inverter manufacturing"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "Moderate",
+          "score": 77,
+          "ecosystem_notes": "Solar cell manufacturing parks, distributed rooftop solar"
+        }
+      ],
+      "industry_sectors": [
+        "Utility-Scale Solar & Wind IPPs",
+        "Energy Storage & BESS Solutions",
+        "Green Hydrogen & Clean Fuels",
+        "Smart Electrical Grid Utilities",
+        "Government Clean Energy Missions"
+      ],
+      "market_outlook": "Historic multi-decade tailwinds driven by India 500 GW non-fossil capacity mandate by 2030, PM Surya Ghar Muft Bijli Yojana, and green hydrogen subsidies.",
+      "prism_fit_rationale": "Exceptional long-term career security with national priority backing and unmatched climate-positive impact.",
+      "data_source": "Ministry of New & Renewable Energy (MNRE) & Bridge to India 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "ev-engineer",
+      "career_name": "EV Engineer",
+      "category": "Sustainable Tech & Clean Energy",
+      "short_description": "Designs high-voltage battery management systems (BMS), electric motor powertrains, regenerative braking, and rapid charging station electronics.",
+      "market_demand_score": 89,
+      "market_demand_label": "High",
+      "future_growth_score": 94,
+      "future_growth_rate": "+35% through 2030",
+      "industry_growth_score": 92,
+      "location_demand_score": 88,
+      "salary_potential": "High",
+      "salary_range": {
+        "entry_level": "Rs 5.2 - 9.2 LPA",
+        "mid_level": "Rs 13 - 22 LPA",
+        "senior_level": "Rs 25 - 46+ LPA",
+        "average_lpa": 15.0,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 5.2 - 9.2 LPA",
+          "focus": "Battery cell testing, wiring harness routing, microcontroller programming (CAN bus)"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 13 - 22 LPA",
+          "focus": "BMS firmware development (state-of-charge/health), inverter motor control, thermal simulation"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 25 - 46+ LPA",
+          "focus": "Electric powertrain integration, ISO 26262 functional safety, high-voltage battery architecture"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Battery Management Systems (BMS)",
+          "Motor Control & Inverters (PMSM/BLDC)",
+          "MATLAB / Simulink Model-Based Design",
+          "CAN / LIN Communication Protocols",
+          "High Voltage Thermal Management",
+          "Embedded C / C++",
+          "Automotive Functional Safety (ISO 26262)"
+        ],
+        "soft_skills": [
+          "Rigorous Safety Verification",
+          "Multidisciplinary Problem Solving",
+          "Fast Prototyping Mindset",
+          "Cross-Tier Supplier Coordination"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Chennai",
+          "demand_level": "Very High",
+          "score": 95,
+          "ecosystem_notes": "EV capital of India: Ather, Ola Electric hub, TVS, Hyundai EV factory, BYD"
+        },
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 94,
+          "ecosystem_notes": "Ather Energy HQ, battery tech startups, connected vehicle software"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "Very High",
+          "score": 92,
+          "ecosystem_notes": "Tata Motors EV, Bajaj Chetak, KPIT Technologies auto software"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "High",
+          "score": 85,
+          "ecosystem_notes": "EV motor winding, copper stamping, battery pack fabrication, electric tractor R&D"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 86,
+          "ecosystem_notes": "Hero Electric, Okinawa, commercial EV fleet hubs"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "High",
+          "score": 82,
+          "ecosystem_notes": "Olectra Greentech electric bus factory, battery chemistry research"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "Moderate",
+          "score": 77,
+          "ecosystem_notes": "EV corporate finance, charging station infrastructure rollouts"
+        }
+      ],
+      "industry_sectors": [
+        "Electric 2W & 3W OEMs",
+        "Passenger & Commercial Electric Vehicles",
+        "Lithium & Solid-State Battery Manufacturers",
+        "EV Fast-Charging Infrastructure",
+        "Automotive Embedded Software"
+      ],
+      "market_outlook": "Unprecedented growth fueled by the FAME III policy, state EV subsidies, surging two-wheeler electrification, and investments into domestic gigafactories.",
+      "prism_fit_rationale": "Massive regional alignment in South India (Chennai, Hosur, Bengaluru, Coimbatore); extraordinary combination of mechanical, electrical, and software engineering.",
+      "data_source": "Society of Indian Automobile Manufacturers (SIAM) & SMEV 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "quantum-computing-specialist",
+      "career_name": "Quantum Computing Specialist",
+      "category": "Emerging STEAM Frontiers",
+      "short_description": "Develops quantum algorithms, hybrid quantum-classical solvers, and post-quantum cryptographic shields for drug discovery, finance, and cryptography.",
+      "market_demand_score": 76,
+      "market_demand_label": "Emerging / Specialized",
+      "future_growth_score": 96,
+      "future_growth_rate": "+45% through 2032",
+      "industry_growth_score": 94,
+      "location_demand_score": 79,
+      "salary_potential": "Very High",
+      "salary_range": {
+        "entry_level": "Rs 8.0 - 14 LPA",
+        "mid_level": "Rs 18 - 32 LPA",
+        "senior_level": "Rs 35 - 65+ LPA",
+        "average_lpa": 22.0,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 8.0 - 14 LPA",
+          "focus": "Qiskit/Cirq algorithm simulation, quantum gate decomposition, linear algebra optimization"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 18 - 32 LPA",
+          "focus": "VQE chemistry simulation, QAOA optimization, error mitigation on NISQ hardware"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 35 - 65+ LPA",
+          "focus": "Fault-tolerant quantum architecture, post-quantum crypto migration, quantum hardware design"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Quantum Mechanics & Linear Algebra",
+          "Qiskit / Cirq / PennyLane",
+          "Python & C++",
+          "Quantum Algorithms (Shor, Grover, VQE)",
+          "Post-Quantum Cryptography (Lattice-Based)",
+          "High-Performance Computing (HPC)",
+          "Statistical Physics"
+        ],
+        "soft_skills": [
+          "Deep Abstract Reasoning",
+          "Pioneering Scientific Mindset",
+          "Academic Publication Ability",
+          "High Ambiguity Tolerance"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 92,
+          "ecosystem_notes": "IISc Quantum Tech Initiative, IBM Quantum Hub, deeptech startups"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "High",
+          "score": 84,
+          "ecosystem_notes": "IIIT Hyderabad Quantum Lab, pharma molecular simulation centers"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "High",
+          "score": 82,
+          "ecosystem_notes": "IIT Madras Quantum Computing Lab, defense cryptographic research"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 80,
+          "ecosystem_notes": "National Quantum Mission (NQM) consortia, DRDO quantum keys"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "High",
+          "score": 81,
+          "ecosystem_notes": "TIFR research, investment banks testing quantum Monte Carlo algorithms"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "Moderate",
+          "score": 70,
+          "ecosystem_notes": "C-DAC supercomputing center quantum simulators"
+        },
+        {
+          "city": "Coimbatore",
+          "demand_level": "Low",
+          "score": 52,
+          "ecosystem_notes": "Academic research laboratories in leading technological institutes"
+        }
+      ],
+      "industry_sectors": [
+        "Quantum Software & Cloud Services",
+        "Pharma & Molecular Drug Discovery",
+        "Investment Banking & Quantitative Risk",
+        "National Defense & Cyber-Intelligence",
+        "Advanced Materials Discovery"
+      ],
+      "market_outlook": "Early-stage hyper-growth frontier spurred by the National Quantum Mission (NQM). Talent with combined physics and coding expertise commands highest salary premiums.",
+      "prism_fit_rationale": "Cutting-edge STEAM frontier for mathematically gifted students aiming for premier research institutions, deeptech startups, and national research labs.",
+      "data_source": "National Quantum Mission (NQM) & IEEE Quantum Report 2026",
+      "last_updated": "Q1 2026"
+    },
+    {
+      "career_id": "agritech-automation-specialist",
+      "career_name": "AgriTech Automation Specialist",
+      "category": "Emerging STEAM Frontiers",
+      "short_description": "Applies precision drone photogrammetry, IoT soil chemistry telemetry, automated drip actuation, and yield machine-learning to modernize agriculture.",
+      "market_demand_score": 83,
+      "market_demand_label": "High Growth",
+      "future_growth_score": 91,
+      "future_growth_rate": "+31% through 2030",
+      "industry_growth_score": 90,
+      "location_demand_score": 87,
+      "salary_potential": "Moderate-High",
+      "salary_range": {
+        "entry_level": "Rs 4.5 - 8.0 LPA",
+        "mid_level": "Rs 10 - 18 LPA",
+        "senior_level": "Rs 20 - 38+ LPA",
+        "average_lpa": 12.8,
+        "currency": "INR"
+      },
+      "experience_progression": [
+        {
+          "level": "Entry Level (0-2 yrs)",
+          "range": "Rs 4.5 - 8.0 LPA",
+          "focus": "Soil sensor deployment, LoRaWAN gateway setups, multispectral drone flight planning"
+        },
+        {
+          "level": "Mid Level (3-6 yrs)",
+          "range": "Rs 10 - 18 LPA",
+          "focus": "Crop stress computer vision, automated fertigation telemetry, agronomy data models"
+        },
+        {
+          "level": "Senior / Lead (7+ yrs)",
+          "range": "Rs 20 - 38+ LPA",
+          "focus": "Smart autonomous tractor navigation, macro agricultural climate modeling, farm enterprise SaaS"
+        }
+      ],
+      "required_skills": {
+        "technical": [
+          "Agricultural IoT & LoRaWAN Sensors",
+          "Multispectral Drone Imagery Analysis (GIS/NDVI)",
+          "Python & Embedded C",
+          "Automated Irrigation PLC / Actuation",
+          "Computer Vision for Crop Disease Detection",
+          "Agronomy & Soil Chemistry Fundamentals",
+          "Cloud Data Pipelines"
+        ],
+        "soft_skills": [
+          "Rural Stakeholder Communication",
+          "Field Resilience & Practical Problem Solving",
+          "Sustainable Resource Ethics",
+          "Cross-Disciplinary Integration"
+        ]
+      },
+      "top_hiring_locations": [
+        {
+          "city": "Coimbatore",
+          "demand_level": "Very High",
+          "score": 94,
+          "ecosystem_notes": "Tamil Nadu Agricultural University (TNAU) corridor, agro-machinery cluster, drip automation"
+        },
+        {
+          "city": "Bengaluru",
+          "demand_level": "Very High",
+          "score": 90,
+          "ecosystem_notes": "Venture-backed AgriTech startups, drone AI centers"
+        },
+        {
+          "city": "Hyderabad",
+          "demand_level": "High",
+          "score": 86,
+          "ecosystem_notes": "ICRISAT international agri research center, agrochemical tech R&D"
+        },
+        {
+          "city": "Pune",
+          "demand_level": "High",
+          "score": 85,
+          "ecosystem_notes": "Mahindra Farm Equipment R&D, sugarcane automation systems"
+        },
+        {
+          "city": "Chennai",
+          "demand_level": "High",
+          "score": 82,
+          "ecosystem_notes": "Tractors & Farm Equipment (TAFE) HQ, coastal climate agro-monitoring"
+        },
+        {
+          "city": "Delhi NCR",
+          "demand_level": "High",
+          "score": 84,
+          "ecosystem_notes": "National agriculture ministries, ICAR tech initiatives, northern grain corridor"
+        },
+        {
+          "city": "Mumbai",
+          "demand_level": "Moderate",
+          "score": 73,
+          "ecosystem_notes": "Commodity trading tech, rural fintech underwriting platforms"
+        }
+      ],
+      "industry_sectors": [
+        "Precision Agriculture & Drone Services",
+        "Smart Farm Equipment & Autonomous Tractors",
+        "Agrochemical & Seed Telemetry",
+        "Government Agri-Modernization Schemes",
+        "Climate Resilience & Carbon Credit Tech"
+      ],
+      "market_outlook": "Explosive grassroots demand driven by digital farm registries, micro-irrigation subsidies, drone spray incentives, and climate-adaptive agriculture mandates.",
+      "prism_fit_rationale": "Groundbreaking hyper-local STEAM opportunity that empowers students in agricultural districts with high-tech software and robotics careers.",
+      "data_source": "ICAR AgriTech Survey & Federation of Indian AgriTech (FIAT) 2026",
+      "last_updated": "Q1 2026"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "student_profile": {
+    "name": "Aarav Sharma",
+    "age": 18,
+    "education_level": "12th Grade",
+    "location": "Coimbatore",
+    "academic_scores": {
+      "maths": 85.0,
+      "physics": 78.0,
+      "computer_science": 90.0
+    },
+    "skills": {
+      "python": 90.0,
+      "problem_solving": 85.0,
+      "communication": 65.0,
+      "creativity": 70.0
+    },
+    "interests": {
+      "ai": 95.0,
+      "software": 90.0,
+      "design": 70.0,
+      "mechanical": 40.0
+    },
+    "aptitude": {
+      "logical_reasoning": 88.0,
+      "numerical": 84.0,
+      "verbal": 68.0
+    },
+    "personality": {
+      "analytical": 90.0,
+      "creative": 72.0,
+      "leadership": 65.0
+    },
+    "career_preferences": [
+      "AI Engineer",
+      "Data Scientist"
+    ]
+  },
+  "parent_profile": {
+    "annual_income": 600000.0,
+    "education_budget": 200000.0,
+    "risk_appetite": "medium",
+    "preferred_location": "Tamil Nadu",
+    "parent_career_preferences": [
+      "Engineering"
+    ],
+    "relocation_allowed": true
+  }
+}

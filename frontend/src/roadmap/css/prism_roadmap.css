@@ -1,0 +1,978 @@
+/* PRISM ENGINE - EDUCATION ROADMAP, EXAMS & SCHOLARSHIPS MODULE */
+/* DESIGN SYSTEM: Human-Designed SaaS Palette */
+
+:root {
+  --prism-navy-900: #0f172a;
+  --prism-navy-800: #1e293b;
+  --prism-navy-700: #334155;
+  --prism-slate-600: #475569;
+  --prism-slate-500: #64748b;
+  --prism-slate-400: #94a3b8;
+  --prism-slate-200: #e2e8f0;
+  --prism-slate-100: #f1f5f9;
+  --prism-slate-50: #f8fafc;
+  --prism-white: #ffffff;
+
+  --prism-blue-600: #2563eb;
+  --prism-blue-700: #1d4ed8;
+  --prism-blue-50: #eff6ff;
+
+  --prism-emerald-600: #16a34a;
+  --prism-emerald-500: #22c55e;
+  --prism-emerald-50: #f0fdf4;
+  --prism-emerald-100: #dcfce7;
+
+  --prism-amber-600: #d97706;
+  --prism-amber-50: #fffbeb;
+  --prism-amber-100: #fef3c7;
+
+  --prism-rose-600: #e11d48;
+  --prism-rose-50: #fff1f2;
+  --prism-rose-100: #ffe4e6;
+
+  --prism-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --prism-radius-sm: 6px;
+  --prism-radius-md: 10px;
+  --prism-radius-lg: 14px;
+  --prism-radius-xl: 20px;
+  --prism-shadow-subtle: 0 1px 3px rgba(15, 23, 42, 0.05), 0 1px 2px rgba(15, 23, 42, 0.03);
+  --prism-shadow-card: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+  --prism-shadow-popover: 0 10px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+  
+  --prism-transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Base resets & box sizing */
+.prism-roadmap-root * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.prism-roadmap-root {
+  font-family: var(--prism-font-sans);
+  color: var(--prism-navy-900);
+  background-color: var(--prism-slate-50);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 3rem;
+}
+
+/* Layout Grid */
+.prism-container {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.prism-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .prism-main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Typography Helpers */
+.prism-section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--prism-navy-900);
+  letter-spacing: -0.015em;
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prism-section-subtitle {
+  font-size: 0.875rem;
+  color: var(--prism-slate-600);
+  margin-bottom: 1.25rem;
+}
+
+/* Card Box Base */
+.prism-card {
+  background: var(--prism-white);
+  border: 1px solid var(--prism-slate-200);
+  border-radius: var(--prism-radius-md);
+  padding: 1.5rem;
+  box-shadow: var(--prism-shadow-subtle);
+  margin-bottom: 1.75rem;
+}
+
+.prism-card-header {
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--prism-slate-100);
+  padding-bottom: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* 1. CAREER HEADER */
+.prism-header-card {
+  background: var(--prism-navy-900);
+  color: var(--prism-white);
+  border-radius: var(--prism-radius-lg);
+  padding: 2.25rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--prism-shadow-card);
+  position: relative;
+  overflow: hidden;
+}
+
+.prism-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.prism-career-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.prism-badge-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #93c5fd;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.prism-career-title {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--prism-white);
+  margin-bottom: 0.5rem;
+}
+
+.prism-career-description {
+  font-size: 1rem;
+  color: var(--prism-slate-400);
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+/* Fit Score Gauge */
+.prism-fit-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--prism-radius-md);
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  min-width: 150px;
+}
+
+.prism-fit-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--prism-slate-400);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.prism-fit-val {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #4ade80;
+  line-height: 1;
+}
+
+.prism-fit-sub {
+  font-size: 0.75rem;
+  color: #93c5fd;
+  margin-top: 0.35rem;
+}
+
+/* Skills Matching pills in Header */
+.prism-matching-skills {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.prism-matching-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--prism-slate-400);
+}
+
+.prism-skill-pill {
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--prism-slate-200);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--prism-radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.prism-skill-pill::before {
+  content: "✓";
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.prism-career-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: var(--prism-slate-400);
+}
+
+.prism-career-select {
+  background: var(--prism-navy-800);
+  color: var(--prism-white);
+  border: 1px solid var(--prism-slate-600);
+  border-radius: var(--prism-radius-sm);
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.prism-career-select:focus {
+  border-color: var(--prism-blue-600);
+}
+
+/* 2. EDUCATION ROADMAP TIMELINE */
+.prism-timeline-container {
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.prism-timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.95rem;
+  width: 2px;
+  background: var(--prism-slate-200);
+}
+
+.prism-step-item {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.prism-step-item:last-child {
+  margin-bottom: 0;
+}
+
+.prism-step-dot {
+  position: absolute;
+  left: -2rem;
+  top: 1.25rem;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--prism-white);
+  border: 2px solid var(--prism-slate-400);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--prism-slate-600);
+  z-index: 2;
+  transition: var(--prism-transition);
+}
+
+.prism-step-item.status-completed .prism-step-dot {
+  background: var(--prism-emerald-600);
+  border-color: var(--prism-emerald-600);
+  color: var(--prism-white);
+}
+
+.prism-step-item.status-in_progress .prism-step-dot {
+  background: var(--prism-blue-600);
+  border-color: var(--prism-blue-600);
+  color: var(--prism-white);
+  box-shadow: 0 0 0 4px var(--prism-blue-50);
+}
+
+.prism-step-card {
+  background: var(--prism-white);
+  border: 1px solid var(--prism-slate-200);
+  border-radius: var(--prism-radius-md);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--prism-shadow-subtle);
+  transition: var(--prism-transition);
+}
+
+.prism-step-card:hover {
+  border-color: var(--prism-slate-400);
+  box-shadow: var(--prism-shadow-card);
+}
+
+.prism-step-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.prism-step-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--prism-blue-600);
+  letter-spacing: 0.05em;
+}
+
+.prism-status-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  text-transform: capitalize;
+}
+
+.prism-status-badge.completed {
+  background: var(--prism-emerald-50);
+  color: var(--prism-emerald-600);
+  border: 1px solid var(--prism-emerald-100);
+}
+
+.prism-status-badge.in_progress {
+  background: var(--prism-blue-50);
+  color: var(--prism-blue-600);
+  border: 1px solid #bfdbfe;
+}
+
+.prism-status-badge.not_started {
+  background: var(--prism-slate-100);
+  color: var(--prism-slate-600);
+  border: 1px solid var(--prism-slate-200);
+}
+
+.prism-step-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--prism-navy-900);
+  margin-bottom: 0.35rem;
+}
+
+.prism-step-desc {
+  font-size: 0.875rem;
+  color: var(--prism-slate-600);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.prism-step-details-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-size: 0.8rem;
+  color: var(--prism-slate-500);
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--prism-slate-200);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prism-step-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.prism-tag-mini {
+  background: var(--prism-slate-100);
+  color: var(--prism-navy-700);
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--prism-radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.prism-btn-detail {
+  background: transparent;
+  border: 1px solid var(--prism-slate-300);
+  color: var(--prism-navy-700);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--prism-radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--prism-transition);
+}
+
+.prism-btn-detail:hover {
+  background: var(--prism-slate-100);
+  border-color: var(--prism-slate-400);
+}
+
+/* 3. SKILLS TO BUILD */
+.prism-skill-group {
+  margin-bottom: 1.5rem;
+}
+
+.prism-group-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--prism-slate-500);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--prism-slate-200);
+}
+
+.prism-skill-row {
+  margin-bottom: 1rem;
+}
+
+.prism-skill-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.35rem;
+  font-size: 0.875rem;
+}
+
+.prism-skill-name {
+  font-weight: 600;
+  color: var(--prism-navy-900);
+}
+
+.prism-skill-val {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--prism-slate-600);
+}
+
+.prism-progress-bg {
+  width: 100%;
+  height: 8px;
+  background: var(--prism-slate-100);
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 1px solid var(--prism-slate-200);
+}
+
+.prism-progress-fill {
+  height: 100%;
+  background: var(--prism-blue-600);
+  border-radius: 9999px;
+  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.prism-progress-fill.high {
+  background: var(--prism-emerald-600);
+}
+.prism-progress-fill.medium {
+  background: var(--prism-blue-600);
+}
+.prism-progress-fill.low {
+  background: var(--prism-amber-600);
+}
+
+/* 4. ENTRANCE EXAMS */
+.prism-filter-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.prism-filter-chip {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  background: var(--prism-slate-100);
+  color: var(--prism-slate-600);
+  border: 1px solid var(--prism-slate-200);
+  cursor: pointer;
+  transition: var(--prism-transition);
+}
+
+.prism-filter-chip.active {
+  background: var(--prism-navy-900);
+  color: var(--prism-white);
+  border-color: var(--prism-navy-900);
+}
+
+.prism-exams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.prism-exam-card {
+  background: var(--prism-white);
+  border: 1px solid var(--prism-slate-200);
+  border-radius: var(--prism-radius-md);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: var(--prism-transition);
+}
+
+.prism-exam-card:hover {
+  border-color: var(--prism-blue-600);
+  box-shadow: var(--prism-shadow-card);
+}
+
+.prism-exam-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--prism-navy-900);
+  margin-bottom: 0.25rem;
+}
+
+.prism-exam-purpose {
+  font-size: 0.825rem;
+  color: var(--prism-slate-600);
+  margin-bottom: 0.85rem;
+}
+
+.prism-exam-meta-table {
+  font-size: 0.775rem;
+  color: var(--prism-slate-600);
+  margin-bottom: 1rem;
+  background: var(--prism-slate-50);
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--prism-radius-sm);
+  border: 1px solid var(--prism-slate-100);
+}
+
+.prism-exam-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 0;
+}
+
+.prism-exam-key {
+  font-weight: 600;
+  color: var(--prism-slate-500);
+}
+
+.prism-exam-val {
+  font-weight: 500;
+  color: var(--prism-navy-900);
+  text-align: right;
+}
+
+.prism-btn-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--prism-blue-600);
+  background: var(--prism-blue-50);
+  border: 1px solid #bfdbfe;
+  border-radius: var(--prism-radius-sm);
+  text-decoration: none;
+  transition: var(--prism-transition);
+  gap: 0.35rem;
+}
+
+.prism-btn-link:hover {
+  background: var(--prism-blue-600);
+  color: var(--prism-white);
+}
+
+/* 5. SCHOLARSHIPS */
+.prism-scholarships-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.prism-scholarship-card {
+  background: var(--prism-white);
+  border: 1px solid var(--prism-slate-200);
+  border-radius: var(--prism-radius-md);
+  padding: 1.25rem;
+  border-top: 4px solid var(--prism-blue-600);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--prism-shadow-subtle);
+  transition: var(--prism-transition);
+}
+
+.prism-scholarship-card:hover {
+  box-shadow: var(--prism-shadow-card);
+  transform: translateY(-2px);
+}
+
+.prism-scholarship-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--prism-navy-900);
+  margin-bottom: 0.5rem;
+}
+
+.prism-benefit-badge {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--prism-emerald-600);
+  background: var(--prism-emerald-50);
+  border: 1px solid var(--prism-emerald-100);
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--prism-radius-sm);
+  display: inline-block;
+  margin-bottom: 0.85rem;
+}
+
+.prism-scholarship-details {
+  font-size: 0.8rem;
+  color: var(--prism-slate-600);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* 6. ALTERNATIVE PATHWAYS */
+.prism-alt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+.prism-alt-card {
+  background: var(--prism-white);
+  border: 1px solid var(--prism-slate-200);
+  border-radius: var(--prism-radius-md);
+  padding: 1.35rem;
+  box-shadow: var(--prism-shadow-subtle);
+  position: relative;
+  transition: var(--prism-transition);
+}
+
+.prism-alt-card.primary {
+  border: 2px solid var(--prism-navy-900);
+  background: var(--prism-slate-50);
+}
+
+.prism-alt-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--prism-radius-sm);
+  background: var(--prism-navy-900);
+  color: var(--prism-white);
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.prism-alt-badge.alternative {
+  background: var(--prism-emerald-600);
+}
+
+.prism-alt-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--prism-navy-900);
+  margin-bottom: 0.5rem;
+}
+
+.prism-alt-stats-row {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.775rem;
+  margin-bottom: 0.85rem;
+}
+
+.prism-alt-stat {
+  background: var(--prism-white);
+  border: 1px solid var(--prism-slate-200);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--prism-radius-sm);
+  font-weight: 600;
+  color: var(--prism-navy-700);
+}
+
+.prism-alt-steps {
+  font-size: 0.8rem;
+  color: var(--prism-slate-600);
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.prism-alt-steps li {
+  margin-bottom: 0.25rem;
+}
+
+.prism-alt-advantage {
+  font-size: 0.775rem;
+  background: var(--prism-emerald-50);
+  color: #15803d;
+  padding: 0.4rem 0.65rem;
+  border-radius: var(--prism-radius-sm);
+  border: 1px solid var(--prism-emerald-100);
+  font-weight: 500;
+}
+
+/* 7. FINANCIAL FIT CARD (SIDEBAR & WIDGET) */
+.prism-financial-box {
+  border-radius: var(--prism-radius-md);
+  padding: 1.25rem;
+  margin-bottom: 1.75rem;
+  border: 1px solid var(--prism-slate-200);
+}
+
+.prism-financial-box.good {
+  background: var(--prism-emerald-50);
+  border-color: var(--prism-emerald-100);
+}
+
+.prism-financial-box.partial {
+  background: var(--prism-amber-50);
+  border-color: var(--prism-amber-100);
+}
+
+.prism-financial-box.gap {
+  background: var(--prism-rose-50);
+  border-color: var(--prism-rose-100);
+}
+
+.prism-financial-status {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.prism-financial-box.good .prism-financial-status { color: var(--prism-emerald-600); }
+.prism-financial-box.partial .prism-financial-status { color: var(--prism-amber-600); }
+.prism-financial-box.gap .prism-financial-status { color: var(--prism-rose-600); }
+
+.prism-fin-metric-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.825rem;
+  margin-bottom: 0.35rem;
+  color: var(--prism-navy-900);
+}
+
+.prism-fin-action-text {
+  font-size: 0.8rem;
+  color: var(--prism-slate-600);
+  margin-top: 0.75rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  line-height: 1.4;
+}
+
+/* 8. CAREER MILESTONES */
+.prism-milestones-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.prism-milestone-item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  background: var(--prism-slate-50);
+  padding: 0.75rem 1rem;
+  border-radius: var(--prism-radius-sm);
+  border: 1px solid var(--prism-slate-200);
+}
+
+.prism-milestone-check {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--prism-slate-200);
+  color: var(--prism-slate-600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+
+}
+
+.prism-milestone-item.done .prism-milestone-check {
+  background: var(--prism-emerald-600);
+  color: var(--prism-white);
+}
+
+.prism-milestone-info {
+  flex: 1;
+}
+
+.prism-milestone-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--prism-navy-900);
+}
+
+.prism-milestone-action {
+  font-size: 0.75rem;
+  color: var(--prism-slate-500);
+}
+
+/* 9. NEXT ACTION CARD */
+.prism-next-action-card {
+  background: linear-gradient(135deg, var(--prism-navy-900) 0%, var(--prism-navy-800) 100%);
+  color: var(--prism-white);
+  border-radius: var(--prism-radius-lg);
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: var(--prism-shadow-card);
+}
+
+.prism-next-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--prism-white);
+}
+
+.prism-next-desc {
+  font-size: 0.9rem;
+  color: var(--prism-slate-300);
+  margin-bottom: 1.25rem;
+}
+
+.prism-next-list {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.prism-next-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--prism-slate-200);
+  margin-bottom: 0.65rem;
+  background: rgba(255,255,255,0.06);
+  padding: 0.6rem 0.85rem;
+  border-radius: var(--prism-radius-sm);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.prism-next-num {
+  font-weight: 700;
+  color: #60a5fa;
+  min-width: 18px;
+}
+
+.prism-btn-primary {
+  background: var(--prism-blue-600);
+  color: var(--prism-white);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.65rem 1.5rem;
+  border-radius: var(--prism-radius-md);
+  border: none;
+  cursor: pointer;
+  transition: var(--prism-transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prism-btn-primary:hover {
+  background: var(--prism-blue-700);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* MODAL / DRAWER */
+.prism-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  animation: prismFadeIn 0.2s ease-out;
+}
+
+.prism-modal-box {
+  background: var(--prism-white);
+  border-radius: var(--prism-radius-lg);
+  max-width: 620px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.75rem;
+  box-shadow: var(--prism-shadow-popover);
+  border: 1px solid var(--prism-slate-200);
+  position: relative;
+}
+
+.prism-modal-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: var(--prism-slate-100);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--prism-slate-600);
+}
+
+.prism-modal-close:hover {
+  background: var(--prism-slate-200);
+  color: var(--prism-navy-900);
+}
+
+@keyframes prismFadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Sample Data Disclaimer Note */
+.prism-demo-tag {
+  font-size: 0.7rem;
+  color: var(--prism-slate-400);
+  font-style: italic;
+  margin-top: 0.5rem;
+  display: block;
+}

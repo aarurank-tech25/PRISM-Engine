@@ -1,0 +1,656 @@
+{
+  "student_profile": {
+    "name": "Sample Student (Demo)",
+    "age": 18,
+    "education_level": "12th Grade",
+    "location": "Coimbatore",
+    "academic_scores": {
+      "maths": 85,
+      "physics": 78,
+      "computer_science": 90
+    },
+    "skills": {
+      "python": 90,
+      "problem_solving": 85,
+      "communication": 65,
+      "creativity": 70
+    },
+    "interests": {
+      "ai": 95,
+      "software": 90,
+      "design": 70,
+      "mechanical": 40
+    },
+    "aptitude": {
+      "logical_reasoning": 88,
+      "numerical": 84,
+      "verbal": 68
+    },
+    "personality": {
+      "analytical": 90,
+      "creative": 72,
+      "leadership": 65
+    },
+    "career_preferences": [
+      "AI Engineer",
+      "Data Scientist"
+    ]
+  },
+  "parent_profile": {
+    "annual_income": 600000,
+    "education_budget": 200000,
+    "risk_appetite": "medium",
+    "preferred_location": "Tamil Nadu",
+    "parent_career_preferences": [
+      "Engineering"
+    ],
+    "relocation_allowed": true
+  },
+  "ai_result": {
+    "summary": {
+      "student_name": "Sample Student (Demo)",
+      "evaluated_careers": 25,
+      "top_career": "AI Engineer",
+      "top_score": 85.2,
+      "financial_feasibility": "Partially Affordable",
+      "conflict_level": "Low",
+      "evaluated_careers_count": 25,
+      "financial_feasibility_summary": "Partially Affordable",
+      "overall_parent_student_conflict": "Low"
+    },
+    "conflict_analysis": {
+      "index": 25.0,
+      "level": "Low",
+      "warnings": [],
+      "preference_conflict": {
+        "conflict_score": 25.0,
+        "conflict_level": "Low",
+        "explanation": "Good domain overlap between student preference ('AI Engineer') and parent preference ('Engineering')."
+      },
+      "interest_aptitude_gaps": [],
+      "overall_conflict_level": "Low"
+    },
+    "ranked_careers": [
+      {
+        "rank": 1,
+        "career_name": "AI Engineer",
+        "final_score": 85.2,
+        "student_fit": 74.39,
+        "financial_fit": 85.0,
+        "market_fit": 94.8,
+        "preference_match": 100.0,
+        "affordability_status": "Partially Affordable",
+        "conflict_level": "Moderate",
+        "skill_gaps": [
+          {
+            "skill_name": "Machine Learning",
+            "student_score": 0.0,
+            "required_score": 80.0,
+            "gap": 80.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Deep Learning",
+            "student_score": 0.0,
+            "required_score": 75.0,
+            "gap": 75.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "System Architecture",
+            "student_score": 0.0,
+            "required_score": 70.0,
+            "gap": 70.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Python",
+            "student_score": 90.0,
+            "required_score": 85.0,
+            "gap": 0.0,
+            "priority": "Low"
+          },
+          {
+            "skill_name": "Problem Solving",
+            "student_score": 85.0,
+            "required_score": 80.0,
+            "gap": 0.0,
+            "priority": "Low"
+          }
+        ],
+        "strengths": [
+          "Strong proficiency in Python (90.0/100)",
+          "Strong proficiency in Problem Solving (85.0/100)",
+          "Deep interest in Artificial Intelligence (95.0/100)",
+          "Deep interest in Software (90.0/100)"
+        ],
+        "warnings": [
+          {
+            "type": "financial_gap",
+            "severity": "Medium",
+            "education_budget": 200000.0,
+            "estimated_cost": 250000.0,
+            "cost_gap": 50000.0,
+            "message": "Education budget (INR 200,000) is lower than estimated annual preparation cost (INR 250,000) for AI Engineer (Gap: INR 50,000)."
+          }
+        ],
+        "why_recommended": "Recommended for AI Engineer because of moderate student fit (74.39/100), strengths in Strong proficiency in Python (90.0/100), Strong proficiency in Problem Solving (85.0/100), partially affordable financial feasibility, strong market demand (94.8/100).",
+        "next_steps": [
+          "Bridge skill gap in Machine Learning (current: 0.0, target: 80.0, gap: 80.0) via structured courses/projects.",
+          "Bridge skill gap in Deep Learning (current: 0.0, target: 75.0, gap: 75.0) via structured courses/projects.",
+          "Bridge skill gap in System Architecture (current: 0.0, target: 70.0, gap: 70.0) via structured courses/projects.",
+          "Explore scholarships, educational loans, or work-study programs to cover the estimated annual cost gap of INR 50,000."
+        ],
+        "alternative_careers": [
+          {
+            "career_name": "Natural Language Processing (NLP) Specialist",
+            "final_score": 68.87,
+            "student_fit": 60.6,
+            "affordability_status": "Partially Affordable",
+            "estimated_cost": 230000.0,
+            "reason_as_alternative": "Higher affordability (cost: INR 230,000 vs INR 250,000) with strong student fit (60.6/100)."
+          },
+          {
+            "career_name": "Data Analytics & BI Engineer",
+            "final_score": 77.92,
+            "student_fit": 61.43,
+            "affordability_status": "Affordable",
+            "estimated_cost": 150000.0,
+            "reason_as_alternative": "Higher affordability (cost: INR 150,000 vs INR 250,000) with strong student fit (61.43/100)."
+          }
+        ],
+        "decision_intelligence": {
+          "what_would_it_take": {
+            "current_readiness_score": 74.39,
+            "gaps": "Technical/practical skill gap",
+            "required_improvement": "Address skill gaps in Machine Learning, Deep Learning, System Architecture.",
+            "achievable_path": "Use targeted roadmap and course mapping to build required competencies."
+          },
+          "highest_impact_action": {
+            "bottleneck": "Practical Experience",
+            "reason": "Foundations and financials are aligned.",
+            "action": "Focus on building real-world projects and seeking early internships.",
+            "impact": "Differentiates your profile for top market opportunities."
+          },
+          "path_optimization": {
+            "recommended_path": "Traditional",
+            "path_description": "Standard higher education degree \u2192 specialization \u2192 internship",
+            "why": [
+              "PRISM can identify the most suitable pathway direction, but detailed institution-level optimization requires additional verified data."
+            ]
+          },
+          "decision_summary": {
+            "career_name": "AI Engineer",
+            "reality_score": 85.2,
+            "why_recommended": "Recommended for AI Engineer because of moderate student fit (74.39/100), strengths in Strong proficiency in Python (90.0/100), Strong proficiency in Problem Solving (85.0/100), partially affordable financial feasibility, strong market demand (94.8/100).",
+            "biggest_constraint": "Practical Experience",
+            "highest_impact_action": "Focus on building real-world projects and seeking early internships.",
+            "financial_reality": "Partially Affordable",
+            "path_optimization": "Traditional",
+            "decision_confidence": "HIGH",
+            "confidence_reason": "Based on the completeness and consistency of the available student profile and assessment data."
+          }
+        }
+      },
+      {
+        "rank": 2,
+        "career_name": "Software Development Engineer",
+        "final_score": 79.53,
+        "student_fit": 62.68,
+        "financial_fit": 100.0,
+        "market_fit": 88.2,
+        "preference_match": 80.0,
+        "affordability_status": "Affordable",
+        "conflict_level": "Low",
+        "skill_gaps": [
+          {
+            "skill_name": "Data Structures",
+            "student_score": 0.0,
+            "required_score": 75.0,
+            "gap": 75.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Algorithms",
+            "student_score": 0.0,
+            "required_score": 75.0,
+            "gap": 75.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Databases",
+            "student_score": 0.0,
+            "required_score": 70.0,
+            "gap": 70.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Python",
+            "student_score": 90.0,
+            "required_score": 80.0,
+            "gap": 0.0,
+            "priority": "Low"
+          },
+          {
+            "skill_name": "Problem Solving",
+            "student_score": 85.0,
+            "required_score": 80.0,
+            "gap": 0.0,
+            "priority": "Low"
+          }
+        ],
+        "strengths": [
+          "Strong proficiency in Python (90.0/100)",
+          "Strong proficiency in Problem Solving (85.0/100)",
+          "Deep interest in Software (90.0/100)"
+        ],
+        "warnings": [],
+        "why_recommended": "Recommended for Software Development Engineer because of moderate student fit (62.68/100), strengths in Strong proficiency in Python (90.0/100), Strong proficiency in Problem Solving (85.0/100), affordable financial feasibility, strong market demand (88.2/100).",
+        "next_steps": [
+          "Bridge skill gap in Data Structures (current: 0.0, target: 75.0, gap: 75.0) via structured courses/projects.",
+          "Bridge skill gap in Algorithms (current: 0.0, target: 75.0, gap: 75.0) via structured courses/projects.",
+          "Bridge skill gap in Databases (current: 0.0, target: 70.0, gap: 70.0) via structured courses/projects."
+        ],
+        "alternative_careers": [
+          {
+            "career_name": "Data Analytics & BI Engineer",
+            "final_score": 77.92,
+            "student_fit": 61.43,
+            "affordability_status": "Affordable",
+            "estimated_cost": 150000.0,
+            "reason_as_alternative": "Higher affordability (cost: INR 150,000 vs INR 170,000) with strong student fit (61.43/100)."
+          },
+          {
+            "career_name": "AI Engineer",
+            "final_score": 85.2,
+            "student_fit": 74.39,
+            "affordability_status": "Partially Affordable",
+            "estimated_cost": 250000.0,
+            "reason_as_alternative": "Aligned student fit (74.39/100) and market outlook."
+          }
+        ],
+        "decision_intelligence": {
+          "what_would_it_take": {
+            "current_readiness_score": 62.68,
+            "gaps": "Technical/practical skill gap",
+            "required_improvement": "Address skill gaps in Data Structures, Algorithms, Databases.",
+            "achievable_path": "Use targeted roadmap and course mapping to build required competencies."
+          },
+          "highest_impact_action": {
+            "bottleneck": "Practical Experience",
+            "reason": "Foundations and financials are aligned.",
+            "action": "Focus on building real-world projects and seeking early internships.",
+            "impact": "Differentiates your profile for top market opportunities."
+          },
+          "path_optimization": {
+            "recommended_path": "Traditional",
+            "path_description": "Standard higher education degree \u2192 specialization \u2192 internship",
+            "why": [
+              "PRISM can identify the most suitable pathway direction, but detailed institution-level optimization requires additional verified data."
+            ]
+          },
+          "decision_summary": {
+            "career_name": "Software Development Engineer",
+            "reality_score": 79.53,
+            "why_recommended": "Recommended for Software Development Engineer because of moderate student fit (62.68/100), strengths in Strong proficiency in Python (90.0/100), Strong proficiency in Problem Solving (85.0/100), affordable financial feasibility, strong market demand (88.2/100).",
+            "biggest_constraint": "Practical Experience",
+            "highest_impact_action": "Focus on building real-world projects and seeking early internships.",
+            "financial_reality": "Affordable",
+            "path_optimization": "Traditional",
+            "decision_confidence": "HIGH",
+            "confidence_reason": "Based on the completeness and consistency of the available student profile and assessment data."
+          }
+        }
+      },
+      {
+        "rank": 3,
+        "career_name": "Data Analytics & BI Engineer",
+        "final_score": 77.92,
+        "student_fit": 61.43,
+        "financial_fit": 100.0,
+        "market_fit": 84.5,
+        "preference_match": 80.0,
+        "affordability_status": "Affordable",
+        "conflict_level": "Low",
+        "skill_gaps": [
+          {
+            "skill_name": "SQL",
+            "student_score": 0.0,
+            "required_score": 80.0,
+            "gap": 80.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Power BI",
+            "student_score": 0.0,
+            "required_score": 75.0,
+            "gap": 75.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Data Modeling",
+            "student_score": 0.0,
+            "required_score": 70.0,
+            "gap": 70.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Communication",
+            "student_score": 65.0,
+            "required_score": 75.0,
+            "gap": 10.0,
+            "priority": "Medium"
+          },
+          {
+            "skill_name": "Python",
+            "student_score": 90.0,
+            "required_score": 70.0,
+            "gap": 0.0,
+            "priority": "Low"
+          }
+        ],
+        "strengths": [
+          "Strong proficiency in Python (90.0/100)",
+          "Deep interest in Research & Analytics (95.0/100)",
+          "Deep interest in Software (90.0/100)"
+        ],
+        "warnings": [],
+        "why_recommended": "Recommended for Data Analytics & BI Engineer because of moderate student fit (61.43/100), strengths in Strong proficiency in Python (90.0/100), Deep interest in Research & Analytics (95.0/100), affordable financial feasibility, strong market demand (84.5/100).",
+        "next_steps": [
+          "Bridge skill gap in SQL (current: 0.0, target: 80.0, gap: 80.0) via structured courses/projects.",
+          "Bridge skill gap in Power BI (current: 0.0, target: 75.0, gap: 75.0) via structured courses/projects.",
+          "Bridge skill gap in Data Modeling (current: 0.0, target: 70.0, gap: 70.0) via structured courses/projects.",
+          "Bridge skill gap in Communication (current: 65.0, target: 75.0, gap: 10.0) via structured courses/projects."
+        ],
+        "alternative_careers": [
+          {
+            "career_name": "AI Engineer",
+            "final_score": 85.2,
+            "student_fit": 74.39,
+            "affordability_status": "Partially Affordable",
+            "estimated_cost": 250000.0,
+            "reason_as_alternative": "Aligned student fit (74.39/100) and market outlook."
+          },
+          {
+            "career_name": "Software Development Engineer",
+            "final_score": 79.53,
+            "student_fit": 62.68,
+            "affordability_status": "Affordable",
+            "estimated_cost": 170000.0,
+            "reason_as_alternative": "Aligned student fit (62.68/100) and market outlook."
+          }
+        ],
+        "decision_intelligence": {
+          "what_would_it_take": {
+            "current_readiness_score": 61.43,
+            "gaps": "Technical/practical skill gap",
+            "required_improvement": "Address skill gaps in SQL, Power BI, Data Modeling.",
+            "achievable_path": "Use targeted roadmap and course mapping to build required competencies."
+          },
+          "highest_impact_action": {
+            "bottleneck": "Practical Experience",
+            "reason": "Foundations and financials are aligned.",
+            "action": "Focus on building real-world projects and seeking early internships.",
+            "impact": "Differentiates your profile for top market opportunities."
+          },
+          "path_optimization": {
+            "recommended_path": "Traditional",
+            "path_description": "Standard higher education degree \u2192 specialization \u2192 internship",
+            "why": [
+              "PRISM can identify the most suitable pathway direction, but detailed institution-level optimization requires additional verified data."
+            ]
+          },
+          "decision_summary": {
+            "career_name": "Data Analytics & BI Engineer",
+            "reality_score": 77.92,
+            "why_recommended": "Recommended for Data Analytics & BI Engineer because of moderate student fit (61.43/100), strengths in Strong proficiency in Python (90.0/100), Deep interest in Research & Analytics (95.0/100), affordable financial feasibility, strong market demand (84.5/100).",
+            "biggest_constraint": "Practical Experience",
+            "highest_impact_action": "Focus on building real-world projects and seeking early internships.",
+            "financial_reality": "Affordable",
+            "path_optimization": "Traditional",
+            "decision_confidence": "HIGH",
+            "confidence_reason": "Based on the completeness and consistency of the available student profile and assessment data."
+          }
+        }
+      },
+      {
+        "rank": 4,
+        "career_name": "Data Scientist",
+        "final_score": 77.11,
+        "student_fit": 57.62,
+        "financial_fit": 85.0,
+        "market_fit": 90.2,
+        "preference_match": 100.0,
+        "affordability_status": "Partially Affordable",
+        "conflict_level": "Moderate",
+        "skill_gaps": [
+          {
+            "skill_name": "Statistics",
+            "student_score": 0.0,
+            "required_score": 75.0,
+            "gap": 75.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Machine Learning",
+            "student_score": 0.0,
+            "required_score": 75.0,
+            "gap": 75.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "SQL",
+            "student_score": 0.0,
+            "required_score": 70.0,
+            "gap": 70.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Data Visualization",
+            "student_score": 0.0,
+            "required_score": 70.0,
+            "gap": 70.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Python",
+            "student_score": 90.0,
+            "required_score": 80.0,
+            "gap": 0.0,
+            "priority": "Low"
+          }
+        ],
+        "strengths": [
+          "Strong proficiency in Python (90.0/100)",
+          "Deep interest in Artificial Intelligence (95.0/100)"
+        ],
+        "warnings": [
+          {
+            "type": "financial_gap",
+            "severity": "Medium",
+            "education_budget": 200000.0,
+            "estimated_cost": 220000.0,
+            "cost_gap": 20000.0,
+            "message": "Education budget (INR 200,000) is lower than estimated annual preparation cost (INR 220,000) for Data Scientist (Gap: INR 20,000)."
+          }
+        ],
+        "why_recommended": "Recommended for Data Scientist because of strengths in Strong proficiency in Python (90.0/100), Deep interest in Artificial Intelligence (95.0/100), partially affordable financial feasibility, strong market demand (90.2/100).",
+        "next_steps": [
+          "Bridge skill gap in Statistics (current: 0.0, target: 75.0, gap: 75.0) via structured courses/projects.",
+          "Bridge skill gap in Machine Learning (current: 0.0, target: 75.0, gap: 75.0) via structured courses/projects.",
+          "Bridge skill gap in SQL (current: 0.0, target: 70.0, gap: 70.0) via structured courses/projects.",
+          "Bridge skill gap in Data Visualization (current: 0.0, target: 70.0, gap: 70.0) via structured courses/projects."
+        ],
+        "alternative_careers": [
+          {
+            "career_name": "Data Analytics & BI Engineer",
+            "final_score": 77.92,
+            "student_fit": 61.43,
+            "affordability_status": "Affordable",
+            "estimated_cost": 150000.0,
+            "reason_as_alternative": "Higher affordability (cost: INR 150,000 vs INR 220,000) with strong student fit (61.43/100)."
+          },
+          {
+            "career_name": "AI Engineer",
+            "final_score": 85.2,
+            "student_fit": 74.39,
+            "affordability_status": "Partially Affordable",
+            "estimated_cost": 250000.0,
+            "reason_as_alternative": "Aligned student fit (74.39/100) and market outlook."
+          }
+        ],
+        "decision_intelligence": {
+          "what_would_it_take": {
+            "current_readiness_score": 57.62,
+            "gaps": "Technical/practical skill gap",
+            "required_improvement": "Address skill gaps in Statistics, Machine Learning, SQL.",
+            "achievable_path": "Use targeted roadmap and course mapping to build required competencies."
+          },
+          "highest_impact_action": {
+            "bottleneck": "Technical/Skill Readiness",
+            "reason": "Current academic and technical readiness is the largest actionable constraint.",
+            "action": "Prioritize practical project building and foundational learning in Statistics.",
+            "impact": "Improving this directly increases your academic alignment and market competitiveness."
+          },
+          "path_optimization": {
+            "recommended_path": "Traditional",
+            "path_description": "Standard higher education degree \u2192 specialization \u2192 internship",
+            "why": [
+              "PRISM can identify the most suitable pathway direction, but detailed institution-level optimization requires additional verified data."
+            ]
+          },
+          "decision_summary": {
+            "career_name": "Data Scientist",
+            "reality_score": 77.11,
+            "why_recommended": "Recommended for Data Scientist because of strengths in Strong proficiency in Python (90.0/100), Deep interest in Artificial Intelligence (95.0/100), partially affordable financial feasibility, strong market demand (90.2/100).",
+            "biggest_constraint": "Technical/Skill Readiness",
+            "highest_impact_action": "Prioritize practical project building and foundational learning in Statistics.",
+            "financial_reality": "Partially Affordable",
+            "path_optimization": "Traditional",
+            "decision_confidence": "HIGH",
+            "confidence_reason": "Based on the completeness and consistency of the available student profile and assessment data."
+          }
+        }
+      },
+      {
+        "rank": 5,
+        "career_name": "Computer Vision Engineer",
+        "final_score": 73.91,
+        "student_fit": 54.48,
+        "financial_fit": 85.0,
+        "market_fit": 90.4,
+        "preference_match": 80.0,
+        "affordability_status": "Partially Affordable",
+        "conflict_level": "Moderate",
+        "skill_gaps": [
+          {
+            "skill_name": "OpenCV",
+            "student_score": 0.0,
+            "required_score": 80.0,
+            "gap": 80.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Deep Learning",
+            "student_score": 0.0,
+            "required_score": 80.0,
+            "gap": 80.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Mathematics",
+            "student_score": 0.0,
+            "required_score": 80.0,
+            "gap": 80.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Image Processing",
+            "student_score": 0.0,
+            "required_score": 75.0,
+            "gap": 75.0,
+            "priority": "High"
+          },
+          {
+            "skill_name": "Python",
+            "student_score": 90.0,
+            "required_score": 85.0,
+            "gap": 0.0,
+            "priority": "Low"
+          }
+        ],
+        "strengths": [
+          "Strong proficiency in Python (90.0/100)",
+          "Deep interest in Artificial Intelligence (95.0/100)"
+        ],
+        "warnings": [
+          {
+            "type": "financial_gap",
+            "severity": "Medium",
+            "education_budget": 200000.0,
+            "estimated_cost": 240000.0,
+            "cost_gap": 40000.0,
+            "message": "Education budget (INR 200,000) is lower than estimated annual preparation cost (INR 240,000) for Computer Vision Engineer (Gap: INR 40,000)."
+          }
+        ],
+        "why_recommended": "Recommended for Computer Vision Engineer because of strengths in Strong proficiency in Python (90.0/100), Deep interest in Artificial Intelligence (95.0/100), partially affordable financial feasibility, strong market demand (90.4/100).",
+        "next_steps": [
+          "Bridge skill gap in OpenCV (current: 0.0, target: 80.0, gap: 80.0) via structured courses/projects.",
+          "Bridge skill gap in Deep Learning (current: 0.0, target: 80.0, gap: 80.0) via structured courses/projects.",
+          "Bridge skill gap in Mathematics (current: 0.0, target: 80.0, gap: 80.0) via structured courses/projects.",
+          "Bridge skill gap in Image Processing (current: 0.0, target: 75.0, gap: 75.0) via structured courses/projects."
+        ],
+        "alternative_careers": [
+          {
+            "career_name": "AI Engineer",
+            "final_score": 85.2,
+            "student_fit": 74.39,
+            "affordability_status": "Partially Affordable",
+            "estimated_cost": 250000.0,
+            "reason_as_alternative": "Aligned student fit (74.39/100) and market outlook."
+          },
+          {
+            "career_name": "Natural Language Processing (NLP) Specialist",
+            "final_score": 68.87,
+            "student_fit": 60.6,
+            "affordability_status": "Partially Affordable",
+            "estimated_cost": 230000.0,
+            "reason_as_alternative": "Higher affordability (cost: INR 230,000 vs INR 240,000) with strong student fit (60.6/100)."
+          }
+        ],
+        "decision_intelligence": {
+          "what_would_it_take": {
+            "current_readiness_score": 54.48,
+            "gaps": "Technical/practical skill gap",
+            "required_improvement": "Address skill gaps in OpenCV, Deep Learning, Mathematics.",
+            "achievable_path": "Use targeted roadmap and course mapping to build required competencies."
+          },
+          "highest_impact_action": {
+            "bottleneck": "Technical/Skill Readiness",
+            "reason": "Current academic and technical readiness is the largest actionable constraint.",
+            "action": "Prioritize practical project building and foundational learning in OpenCV.",
+            "impact": "Improving this directly increases your academic alignment and market competitiveness."
+          },
+          "path_optimization": {
+            "recommended_path": "Traditional",
+            "path_description": "Standard higher education degree \u2192 specialization \u2192 internship",
+            "why": [
+              "PRISM can identify the most suitable pathway direction, but detailed institution-level optimization requires additional verified data."
+            ]
+          },
+          "decision_summary": {
+            "career_name": "Computer Vision Engineer",
+            "reality_score": 73.91,
+            "why_recommended": "Recommended for Computer Vision Engineer because of strengths in Strong proficiency in Python (90.0/100), Deep interest in Artificial Intelligence (95.0/100), partially affordable financial feasibility, strong market demand (90.4/100).",
+            "biggest_constraint": "Technical/Skill Readiness",
+            "highest_impact_action": "Prioritize practical project building and foundational learning in OpenCV.",
+            "financial_reality": "Partially Affordable",
+            "path_optimization": "Traditional",
+            "decision_confidence": "HIGH",
+            "confidence_reason": "Based on the completeness and consistency of the available student profile and assessment data."
+          }
+        }
+      }
+    ]
+  }
+}

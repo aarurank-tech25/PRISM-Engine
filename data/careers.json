@@ -1,0 +1,1452 @@
+[
+  {
+    "career_name": "AI Engineer",
+    "category": "AI / Machine Learning",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "Problem Solving",
+      "System Architecture"
+    ],
+    "skill_benchmarks": {
+      "Python": 85,
+      "Machine Learning": 80,
+      "Deep Learning": 75,
+      "Problem Solving": 80,
+      "System Architecture": 70
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 90,
+      "numerical": 85,
+      "analytical_reasoning": 90,
+      "verbal": 65
+    },
+    "interest_areas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Software",
+      "Deep Tech"
+    ],
+    "personality_traits": {
+      "analytical": 90,
+      "innovative": 85,
+      "focus": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's Degree in CS/AI",
+      "estimated_cost_tier": "Medium-High",
+      "estimated_annual_cost": 250000,
+      "certification_cost_usd": 1800
+    },
+    "market_demand": {
+      "rating": "Very High",
+      "score": 96.0,
+      "job_postings_trend": "Surging",
+      "hiring_velocity": 0.95
+    },
+    "location_demand": {
+      "score": 90.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Hyderabad", "Pune", "Remote"]
+    },
+    "future_growth": {
+      "score": 98.0,
+      "projected_growth_rate_percent": 34.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "Data Scientist",
+    "category": "Data Science",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "Machine Learning",
+      "SQL",
+      "Data Visualization"
+    ],
+    "skill_benchmarks": {
+      "Python": 80,
+      "Statistics": 75,
+      "Machine Learning": 75,
+      "SQL": 70,
+      "Data Visualization": 70
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 85,
+      "numerical": 80,
+      "analytical_reasoning": 85,
+      "verbal": 65
+    },
+    "interest_areas": [
+      "Artificial Intelligence",
+      "Mathematics",
+      "Research & Analytics",
+      "Problem Solving"
+    ],
+    "personality_traits": {
+      "analytical": 85,
+      "investigative": 80,
+      "creative": 65
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's Degree",
+      "estimated_cost_tier": "Medium-High",
+      "estimated_annual_cost": 220000,
+      "certification_cost_usd": 1500
+    },
+    "market_demand": {
+      "rating": "Very High",
+      "score": 92.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.88
+    },
+    "location_demand": {
+      "score": 88.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Hyderabad", "Chennai", "Remote"]
+    },
+    "future_growth": {
+      "score": 90.0,
+      "projected_growth_rate_percent": 28.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "Software Development Engineer",
+    "category": "Software Engineering",
+    "required_skills": [
+      "Python",
+      "Data Structures",
+      "Algorithms",
+      "Problem Solving",
+      "Databases"
+    ],
+    "skill_benchmarks": {
+      "Python": 80,
+      "Data Structures": 75,
+      "Algorithms": 75,
+      "Problem Solving": 80,
+      "Databases": 70
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 85,
+      "numerical": 80,
+      "analytical_reasoning": 80,
+      "verbal": 70
+    },
+    "interest_areas": [
+      "Software",
+      "Coding",
+      "Web Technologies",
+      "Problem Solving"
+    ],
+    "personality_traits": {
+      "analytical": 85,
+      "persistence": 80,
+      "teamwork": 75
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in Engineering / Computer Science",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 170000,
+      "certification_cost_usd": 500
+    },
+    "market_demand": {
+      "rating": "Very High",
+      "score": 90.0,
+      "job_postings_trend": "High",
+      "hiring_velocity": 0.88
+    },
+    "location_demand": {
+      "score": 88.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Chennai", "Hyderabad", "Coimbatore", "Remote"]
+    },
+    "future_growth": {
+      "score": 86.0,
+      "projected_growth_rate_percent": 22.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "Cloud Solutions Architect",
+    "category": "Cloud Computing",
+    "required_skills": [
+      "Cloud Architecture",
+      "Python",
+      "Networking",
+      "System Design",
+      "DevOps"
+    ],
+    "skill_benchmarks": {
+      "Cloud Architecture": 80,
+      "Python": 70,
+      "Networking": 75,
+      "System Design": 80,
+      "DevOps": 75
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 85,
+      "analytical_reasoning": 80,
+      "systems_thinking": 90,
+      "verbal": 75
+    },
+    "interest_areas": [
+      "Infrastructure",
+      "Distributed Systems",
+      "Cloud Computing",
+      "Software"
+    ],
+    "personality_traits": {
+      "analytical": 80,
+      "leadership": 75,
+      "methodical": 85
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree + Certifications",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 180000,
+      "certification_cost_usd": 2000
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 88.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.85
+    },
+    "location_demand": {
+      "score": 85.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Chennai", "Hyderabad", "Remote"]
+    },
+    "future_growth": {
+      "score": 88.0,
+      "projected_growth_rate_percent": 25.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "DevOps & Site Reliability Engineer",
+    "category": "DevOps",
+    "required_skills": [
+      "CI/CD Pipelines",
+      "Linux Administration",
+      "Python",
+      "Kubernetes",
+      "Monitoring & Observability"
+    ],
+    "skill_benchmarks": {
+      "CI/CD Pipelines": 80,
+      "Linux Administration": 75,
+      "Python": 70,
+      "Kubernetes": 75,
+      "Monitoring & Observability": 70
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 82,
+      "systems_thinking": 88,
+      "analytical_reasoning": 80,
+      "attention_to_detail": 85
+    },
+    "interest_areas": [
+      "Infrastructure",
+      "Automation",
+      "Cloud Computing",
+      "Software"
+    ],
+    "personality_traits": {
+      "analytical": 80,
+      "calm_under_pressure": 85,
+      "methodical": 85
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree + Cloud/DevOps Certifications",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 175000,
+      "certification_cost_usd": 1200
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 89.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.86
+    },
+    "location_demand": {
+      "score": 86.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Chennai", "Pune", "Remote"]
+    },
+    "future_growth": {
+      "score": 87.0,
+      "projected_growth_rate_percent": 23.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "Cybersecurity Analyst",
+    "category": "Cybersecurity",
+    "required_skills": [
+      "Network Security",
+      "Python",
+      "Ethical Hacking",
+      "Problem Solving",
+      "Risk Assessment"
+    ],
+    "skill_benchmarks": {
+      "Network Security": 80,
+      "Python": 70,
+      "Ethical Hacking": 75,
+      "Problem Solving": 80,
+      "Risk Assessment": 75
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 85,
+      "analytical_reasoning": 85,
+      "attention_to_detail": 90,
+      "verbal": 70
+    },
+    "interest_areas": [
+      "Cybersecurity",
+      "Software",
+      "Defense Systems",
+      "Problem Solving"
+    ],
+    "personality_traits": {
+      "analytical": 85,
+      "vigilant": 90,
+      "integrity": 90
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree + Security Certifications",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 190000,
+      "certification_cost_usd": 1800
+    },
+    "market_demand": {
+      "rating": "Very High",
+      "score": 94.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.90
+    },
+    "location_demand": {
+      "score": 86.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Hyderabad", "Chennai", "Remote"]
+    },
+    "future_growth": {
+      "score": 92.0,
+      "projected_growth_rate_percent": 30.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "UI/UX Product Designer",
+    "category": "UI/UX / Product Design",
+    "required_skills": [
+      "User Research",
+      "Wireframing & Prototyping",
+      "Design Systems",
+      "Creativity",
+      "Communication"
+    ],
+    "skill_benchmarks": {
+      "User Research": 75,
+      "Wireframing & Prototyping": 80,
+      "Design Systems": 75,
+      "Creativity": 85,
+      "Communication": 80
+    },
+    "aptitude_requirements": {
+      "creative_thinking": 85,
+      "visual_spatial_ability": 80,
+      "verbal": 80,
+      "logical_reasoning": 70
+    },
+    "interest_areas": [
+      "Design",
+      "Visual Arts",
+      "Human-Computer Interaction",
+      "Product Strategy"
+    ],
+    "personality_traits": {
+      "creative": 90,
+      "empathetic": 85,
+      "collaborative": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree or Design School",
+      "estimated_cost_tier": "Low-Medium",
+      "estimated_annual_cost": 140000,
+      "certification_cost_usd": 800
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 82.0,
+      "job_postings_trend": "Stable",
+      "hiring_velocity": 0.78
+    },
+    "location_demand": {
+      "score": 82.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Mumbai", "Chennai", "Remote"]
+    },
+    "future_growth": {
+      "score": 80.0,
+      "projected_growth_rate_percent": 18.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Medium-High"
+    }
+  },
+  {
+    "career_name": "Computer Vision Engineer",
+    "category": "Computer Vision",
+    "required_skills": [
+      "Python",
+      "OpenCV",
+      "Deep Learning",
+      "Image Processing",
+      "Mathematics"
+    ],
+    "skill_benchmarks": {
+      "Python": 85,
+      "OpenCV": 80,
+      "Deep Learning": 80,
+      "Image Processing": 75,
+      "Mathematics": 80
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 88,
+      "numerical": 85,
+      "spatial_ability": 85,
+      "analytical_reasoning": 88
+    },
+    "interest_areas": [
+      "Artificial Intelligence",
+      "Computer Vision",
+      "Machine Learning",
+      "Deep Tech"
+    ],
+    "personality_traits": {
+      "analytical": 90,
+      "detail_oriented": 85,
+      "investigative": 85
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's Degree in AI/CS",
+      "estimated_cost_tier": "Medium-High",
+      "estimated_annual_cost": 240000,
+      "certification_cost_usd": 1600
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 91.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.88
+    },
+    "location_demand": {
+      "score": 87.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Hyderabad", "Chennai", "Remote"]
+    },
+    "future_growth": {
+      "score": 93.0,
+      "projected_growth_rate_percent": 31.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "Natural Language Processing (NLP) Specialist",
+    "category": "NLP",
+    "required_skills": [
+      "Python",
+      "Large Language Models",
+      "Deep Learning",
+      "Text Processing",
+      "Mathematics"
+    ],
+    "skill_benchmarks": {
+      "Python": 85,
+      "Large Language Models": 80,
+      "Deep Learning": 80,
+      "Text Processing": 75,
+      "Mathematics": 75
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 88,
+      "verbal": 82,
+      "analytical_reasoning": 86,
+      "numerical": 80
+    },
+    "interest_areas": [
+      "Artificial Intelligence",
+      "Linguistics",
+      "Machine Learning",
+      "Software"
+    ],
+    "personality_traits": {
+      "analytical": 88,
+      "curious": 85,
+      "focus": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's in Data/CS",
+      "estimated_cost_tier": "Medium-High",
+      "estimated_annual_cost": 230000,
+      "certification_cost_usd": 1500
+    },
+    "market_demand": {
+      "rating": "Very High",
+      "score": 93.0,
+      "job_postings_trend": "Surging",
+      "hiring_velocity": 0.92
+    },
+    "location_demand": {
+      "score": 88.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Hyderabad", "Pune", "Remote"]
+    },
+    "future_growth": {
+      "score": 95.0,
+      "projected_growth_rate_percent": 32.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "Data Analytics & BI Engineer",
+    "category": "Data Analytics",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Python",
+      "Data Modeling",
+      "Communication"
+    ],
+    "skill_benchmarks": {
+      "SQL": 80,
+      "Power BI": 75,
+      "Python": 70,
+      "Data Modeling": 70,
+      "Communication": 75
+    },
+    "aptitude_requirements": {
+      "numerical": 80,
+      "logical_reasoning": 78,
+      "analytical_reasoning": 80,
+      "verbal": 75
+    },
+    "interest_areas": [
+      "Research & Analytics",
+      "Business Intelligence",
+      "Problem Solving",
+      "Software"
+    ],
+    "personality_traits": {
+      "analytical": 80,
+      "communicative": 80,
+      "organized": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in IT/Commerce/Engineering",
+      "estimated_cost_tier": "Low-Medium",
+      "estimated_annual_cost": 150000,
+      "certification_cost_usd": 600
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 86.0,
+      "job_postings_trend": "Stable",
+      "hiring_velocity": 0.82
+    },
+    "location_demand": {
+      "score": 85.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Chennai", "Mumbai", "Coimbatore", "Remote"]
+    },
+    "future_growth": {
+      "score": 82.0,
+      "projected_growth_rate_percent": 19.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Medium-High"
+    }
+  },
+  {
+    "career_name": "Robotics & Automation Engineer",
+    "category": "Robotics",
+    "required_skills": [
+      "Robotics Control",
+      "Python",
+      "Sensors & Actuators",
+      "Embedded Systems",
+      "Problem Solving"
+    ],
+    "skill_benchmarks": {
+      "Robotics Control": 80,
+      "Python": 75,
+      "Sensors & Actuators": 75,
+      "Embedded Systems": 75,
+      "Problem Solving": 80
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 85,
+      "numerical": 80,
+      "analytical_reasoning": 85,
+      "spatial_ability": 80
+    },
+    "interest_areas": [
+      "Robotics",
+      "Mechanical",
+      "Electronics",
+      "Artificial Intelligence"
+    ],
+    "personality_traits": {
+      "analytical": 85,
+      "inventive": 85,
+      "pragmatic": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in Mechatronics / Robotics",
+      "estimated_cost_tier": "Medium-High",
+      "estimated_annual_cost": 260000,
+      "certification_cost_usd": 1500
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 85.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.80
+    },
+    "location_demand": {
+      "score": 72.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Chennai", "Bangalore", "Pune", "Coimbatore"]
+    },
+    "future_growth": {
+      "score": 89.0,
+      "projected_growth_rate_percent": 24.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "Industrial AI & Smart Manufacturing Specialist",
+    "category": "Industrial AI",
+    "required_skills": [
+      "Predictive Maintenance",
+      "Python",
+      "Industrial IoT",
+      "PLC Systems",
+      "Problem Solving"
+    ],
+    "skill_benchmarks": {
+      "Predictive Maintenance": 75,
+      "Python": 70,
+      "Industrial IoT": 75,
+      "PLC Systems": 70,
+      "Problem Solving": 80
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 82,
+      "systems_thinking": 85,
+      "numerical": 78,
+      "analytical_reasoning": 82
+    },
+    "interest_areas": [
+      "Artificial Intelligence",
+      "Smart Manufacturing",
+      "Automation",
+      "Mechanical"
+    ],
+    "personality_traits": {
+      "analytical": 82,
+      "practical": 85,
+      "collaborative": 75
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in Mechatronics/CS",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 210000,
+      "certification_cost_usd": 1200
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 83.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.79
+    },
+    "location_demand": {
+      "score": 70.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Chennai", "Coimbatore", "Pune", "Bangalore"]
+    },
+    "future_growth": {
+      "score": 88.0,
+      "projected_growth_rate_percent": 23.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "IoT Solutions Engineer",
+    "category": "IoT",
+    "required_skills": [
+      "Microcontrollers",
+      "Python",
+      "C Programming",
+      "MQTT Protocols",
+      "Sensor Integration"
+    ],
+    "skill_benchmarks": {
+      "Microcontrollers": 75,
+      "Python": 70,
+      "C Programming": 75,
+      "MQTT Protocols": 70,
+      "Sensor Integration": 75
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 80,
+      "systems_thinking": 82,
+      "numerical": 75,
+      "spatial_ability": 75
+    },
+    "interest_areas": [
+      "Electronics",
+      "Internet of Things",
+      "Software",
+      "Hardware"
+    ],
+    "personality_traits": {
+      "analytical": 80,
+      "tinkerer": 85,
+      "persistent": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in ECE / EEE",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 180000,
+      "certification_cost_usd": 900
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 80.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.77
+    },
+    "location_demand": {
+      "score": 75.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Bangalore", "Chennai", "Hyderabad", "Pune"]
+    },
+    "future_growth": {
+      "score": 84.0,
+      "projected_growth_rate_percent": 20.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "Embedded Systems & Firmware Engineer",
+    "category": "Automation",
+    "required_skills": [
+      "Embedded C",
+      "RTOS",
+      "Microcontroller Architecture",
+      "Debugging",
+      "Device Drivers"
+    ],
+    "skill_benchmarks": {
+      "Embedded C": 80,
+      "RTOS": 75,
+      "Microcontroller Architecture": 75,
+      "Debugging": 80,
+      "Device Drivers": 70
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 84,
+      "analytical_reasoning": 82,
+      "attention_to_detail": 88,
+      "numerical": 78
+    },
+    "interest_areas": [
+      "Electronics",
+      "Embedded Systems",
+      "Robotics",
+      "Hardware"
+    ],
+    "personality_traits": {
+      "analytical": 85,
+      "methodical": 85,
+      "patient": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in ECE / Mechatronics",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 190000,
+      "certification_cost_usd": 1000
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 82.0,
+      "job_postings_trend": "Stable",
+      "hiring_velocity": 0.78
+    },
+    "location_demand": {
+      "score": 74.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Bangalore", "Chennai", "Hyderabad", "Coimbatore"]
+    },
+    "future_growth": {
+      "score": 83.0,
+      "projected_growth_rate_percent": 18.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "VLSI & Semiconductor Design Engineer",
+    "category": "VLSI / Semiconductor",
+    "required_skills": [
+      "Verilog",
+      "Digital Electronics",
+      "ASIC Design",
+      "Static Timing Analysis",
+      "Python"
+    ],
+    "skill_benchmarks": {
+      "Verilog": 80,
+      "Digital Electronics": 80,
+      "ASIC Design": 75,
+      "Static Timing Analysis": 75,
+      "Python": 65
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 88,
+      "numerical": 85,
+      "analytical_reasoning": 88,
+      "attention_to_detail": 90
+    },
+    "interest_areas": [
+      "Semiconductors",
+      "Electronics",
+      "Hardware Architecture",
+      "Physics"
+    ],
+    "personality_traits": {
+      "analytical": 90,
+      "rigorous": 90,
+      "focused": 85
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's Degree in ECE/VLSI",
+      "estimated_cost_tier": "High",
+      "estimated_annual_cost": 310000,
+      "certification_cost_usd": 2200
+    },
+    "market_demand": {
+      "rating": "Very High",
+      "score": 88.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.85
+    },
+    "location_demand": {
+      "score": 75.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Bangalore", "Noida", "Hyderabad", "Chennai"]
+    },
+    "future_growth": {
+      "score": 92.0,
+      "projected_growth_rate_percent": 27.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "Electric Vehicle (EV) Powertrain Engineer",
+    "category": "EV Engineering",
+    "required_skills": [
+      "Battery Management Systems",
+      "Motor Control",
+      "Power Electronics",
+      "MATLAB Simulink",
+      "Thermodynamics"
+    ],
+    "skill_benchmarks": {
+      "Battery Management Systems": 80,
+      "Motor Control": 75,
+      "Power Electronics": 75,
+      "MATLAB Simulink": 75,
+      "Thermodynamics": 70
+    },
+    "aptitude_requirements": {
+      "numerical": 82,
+      "scientific_reasoning": 85,
+      "logical_reasoning": 80,
+      "analytical_reasoning": 82
+    },
+    "interest_areas": [
+      "Automotive Engineering",
+      "Clean Energy",
+      "Mechanical",
+      "Electronics"
+    ],
+    "personality_traits": {
+      "analytical": 82,
+      "problem_solver": 85,
+      "innovative": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's in Mechanical/EEE",
+      "estimated_cost_tier": "Medium-High",
+      "estimated_annual_cost": 270000,
+      "certification_cost_usd": 1400
+    },
+    "market_demand": {
+      "rating": "High",
+      "score": 86.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.83
+    },
+    "location_demand": {
+      "score": 72.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Chennai", "Pune", "Bangalore", "Hosur"]
+    },
+    "future_growth": {
+      "score": 91.0,
+      "projected_growth_rate_percent": 29.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "Renewable Energy Systems Engineer",
+    "category": "Renewable Energy",
+    "required_skills": [
+      "Solar/Wind System Design",
+      "Energy Storage",
+      "Grid Integration",
+      "Environmental Compliance",
+      "CAD"
+    ],
+    "skill_benchmarks": {
+      "Solar/Wind System Design": 75,
+      "Energy Storage": 75,
+      "Grid Integration": 70,
+      "Environmental Compliance": 70,
+      "CAD": 70
+    },
+    "aptitude_requirements": {
+      "scientific_reasoning": 82,
+      "numerical": 78,
+      "logical_reasoning": 78,
+      "spatial_ability": 75
+    },
+    "interest_areas": [
+      "Clean Energy",
+      "Sustainability",
+      "Engineering",
+      "Physics"
+    ],
+    "personality_traits": {
+      "purpose_driven": 88,
+      "analytical": 78,
+      "methodical": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's in Energy/Electrical Engineering",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 210000,
+      "certification_cost_usd": 1100
+    },
+    "market_demand": {
+      "rating": "Medium-High",
+      "score": 79.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.74
+    },
+    "location_demand": {
+      "score": 68.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Gujarat", "Tamil Nadu", "Rajasthan", "Bangalore"]
+    },
+    "future_growth": {
+      "score": 88.0,
+      "projected_growth_rate_percent": 24.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "Biomedical Engineer",
+    "category": "Biomedical Engineering",
+    "required_skills": [
+      "Biomechanics",
+      "Medical Device Design",
+      "Signal Processing",
+      "Problem Solving",
+      "Regulatory Compliance"
+    ],
+    "skill_benchmarks": {
+      "Biomechanics": 80,
+      "Medical Device Design": 75,
+      "Signal Processing": 75,
+      "Problem Solving": 75,
+      "Regulatory Compliance": 70
+    },
+    "aptitude_requirements": {
+      "scientific_reasoning": 85,
+      "numerical": 75,
+      "logical_reasoning": 80,
+      "verbal": 75
+    },
+    "interest_areas": [
+      "Healthcare & Medicine",
+      "Engineering",
+      "Biological Sciences",
+      "Biotech Innovation"
+    ],
+    "personality_traits": {
+      "analytical": 80,
+      "empathetic": 75,
+      "methodical": 85
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's Degree (Lab Equipment intensive)",
+      "estimated_cost_tier": "High",
+      "estimated_annual_cost": 320000,
+      "certification_cost_usd": 1200
+    },
+    "market_demand": {
+      "rating": "Medium-High",
+      "score": 75.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.70
+    },
+    "location_demand": {
+      "score": 68.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Chennai", "Hyderabad", "Bangalore", "Boston"]
+    },
+    "future_growth": {
+      "score": 82.0,
+      "projected_growth_rate_percent": 14.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "Mechanical Design Engineer",
+    "category": "Mechanical Engineering",
+    "required_skills": [
+      "SolidWorks",
+      "Finite Element Analysis",
+      "Materials Science",
+      "Manufacturing Processes",
+      "Geometric Dimensioning"
+    ],
+    "skill_benchmarks": {
+      "SolidWorks": 80,
+      "Finite Element Analysis": 75,
+      "Materials Science": 75,
+      "Manufacturing Processes": 70,
+      "Geometric Dimensioning": 70
+    },
+    "aptitude_requirements": {
+      "spatial_ability": 85,
+      "numerical": 80,
+      "logical_reasoning": 80,
+      "scientific_reasoning": 78
+    },
+    "interest_areas": [
+      "Mechanical",
+      "Industrial Design",
+      "Manufacturing",
+      "Physics"
+    ],
+    "personality_traits": {
+      "pragmatic": 85,
+      "detail_oriented": 85,
+      "analytical": 78
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in Mechanical Engineering",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 180000,
+      "certification_cost_usd": 700
+    },
+    "market_demand": {
+      "rating": "Medium",
+      "score": 70.0,
+      "job_postings_trend": "Stable",
+      "hiring_velocity": 0.68
+    },
+    "location_demand": {
+      "score": 66.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Coimbatore", "Chennai", "Pune", "Faridabad"]
+    },
+    "future_growth": {
+      "score": 74.0,
+      "projected_growth_rate_percent": 11.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Medium"
+    }
+  },
+  {
+    "career_name": "Aerospace & Avionics Engineer",
+    "category": "Aerospace Engineering",
+    "required_skills": [
+      "Aerodynamics",
+      "Flight Dynamics",
+      "Avionics Protocols",
+      "MATLAB Simulink",
+      "Structural Analysis"
+    ],
+    "skill_benchmarks": {
+      "Aerodynamics": 80,
+      "Flight Dynamics": 80,
+      "Avionics Protocols": 75,
+      "MATLAB Simulink": 75,
+      "Structural Analysis": 75
+    },
+    "aptitude_requirements": {
+      "numerical": 88,
+      "scientific_reasoning": 88,
+      "logical_reasoning": 85,
+      "spatial_ability": 85
+    },
+    "interest_areas": [
+      "Aerospace",
+      "Aviation",
+      "Defense Systems",
+      "Physics"
+    ],
+    "personality_traits": {
+      "analytical": 88,
+      "precision_driven": 90,
+      "disciplined": 85
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's in Aeronautical/Aerospace",
+      "estimated_cost_tier": "High",
+      "estimated_annual_cost": 360000,
+      "certification_cost_usd": 2000
+    },
+    "market_demand": {
+      "rating": "Medium-High",
+      "score": 74.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.70
+    },
+    "location_demand": {
+      "score": 64.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Bangalore", "Hyderabad", "Thiruvananthapuram"]
+    },
+    "future_growth": {
+      "score": 85.0,
+      "projected_growth_rate_percent": 16.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Very High"
+    }
+  },
+  {
+    "career_name": "Game Developer & Simulation Engineer",
+    "category": "Game Development",
+    "required_skills": [
+      "C++",
+      "Unity/Unreal Engine",
+      "Physics Engines",
+      "3D Mathematics",
+      "Problem Solving"
+    ],
+    "skill_benchmarks": {
+      "C++": 80,
+      "Unity/Unreal Engine": 75,
+      "Physics Engines": 70,
+      "3D Mathematics": 75,
+      "Problem Solving": 80
+    },
+    "aptitude_requirements": {
+      "spatial_ability": 85,
+      "logical_reasoning": 82,
+      "numerical": 78,
+      "creative_thinking": 80
+    },
+    "interest_areas": [
+      "Gaming",
+      "Interactive Media",
+      "Software",
+      "Visual Arts"
+    ],
+    "personality_traits": {
+      "creative": 85,
+      "passionate": 88,
+      "persistent": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in CS/Game Dev",
+      "estimated_cost_tier": "Low-Medium",
+      "estimated_annual_cost": 160000,
+      "certification_cost_usd": 800
+    },
+    "market_demand": {
+      "rating": "Medium-High",
+      "score": 76.0,
+      "job_postings_trend": "Stable",
+      "hiring_velocity": 0.72
+    },
+    "location_demand": {
+      "score": 78.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Pune", "Hyderabad", "Remote"]
+    },
+    "future_growth": {
+      "score": 81.0,
+      "projected_growth_rate_percent": 17.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Medium-High"
+    }
+  },
+  {
+    "career_name": "FinTech Quantitative Analyst",
+    "category": "FinTech",
+    "required_skills": [
+      "Python",
+      "Financial Modeling",
+      "Statistics",
+      "Algorithms",
+      "SQL"
+    ],
+    "skill_benchmarks": {
+      "Python": 80,
+      "Financial Modeling": 75,
+      "Statistics": 80,
+      "Algorithms": 75,
+      "SQL": 70
+    },
+    "aptitude_requirements": {
+      "numerical": 92,
+      "analytical_reasoning": 90,
+      "logical_reasoning": 88,
+      "verbal": 70
+    },
+    "interest_areas": [
+      "Finance",
+      "Mathematics",
+      "Research & Analytics",
+      "Software"
+    ],
+    "personality_traits": {
+      "analytical": 92,
+      "risk_aware": 88,
+      "competitive": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's / Master's in Finance/Math/CS",
+      "estimated_cost_tier": "Medium-High",
+      "estimated_annual_cost": 250000,
+      "certification_cost_usd": 2500
+    },
+    "market_demand": {
+      "rating": "Very High",
+      "score": 90.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.88
+    },
+    "location_demand": {
+      "score": 84.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Mumbai", "Bangalore", "Gurgaon", "Remote"]
+    },
+    "future_growth": {
+      "score": 88.0,
+      "projected_growth_rate_percent": 22.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "Environmental Technology Engineer",
+    "category": "Environmental Technology",
+    "required_skills": [
+      "Environmental Impact Assessment",
+      "GIS & Remote Sensing",
+      "Water Resource Modeling",
+      "Pollution Control Tech",
+      "Data Analysis"
+    ],
+    "skill_benchmarks": {
+      "Environmental Impact Assessment": 75,
+      "GIS & Remote Sensing": 70,
+      "Water Resource Modeling": 70,
+      "Pollution Control Tech": 75,
+      "Data Analysis": 70
+    },
+    "aptitude_requirements": {
+      "scientific_reasoning": 82,
+      "numerical": 74,
+      "logical_reasoning": 76,
+      "verbal": 76
+    },
+    "interest_areas": [
+      "Sustainability",
+      "Environmental Science",
+      "Civil & Earth Sciences",
+      "Policy"
+    ],
+    "personality_traits": {
+      "purpose_driven": 90,
+      "conscientious": 85,
+      "collaborative": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in Environmental Engineering/Science",
+      "estimated_cost_tier": "Low-Medium",
+      "estimated_annual_cost": 160000,
+      "certification_cost_usd": 600
+    },
+    "market_demand": {
+      "rating": "Medium",
+      "score": 72.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.68
+    },
+    "location_demand": {
+      "score": 67.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Delhi-NCR", "Chennai", "Bangalore", "Pune"]
+    },
+    "future_growth": {
+      "score": 83.0,
+      "projected_growth_rate_percent": 18.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "AR/VR Spatial Computing Engineer",
+    "category": "AR/VR",
+    "required_skills": [
+      "Unity/Unreal Engine",
+      "C# or C++",
+      "3D Graphics & Shaders",
+      "Spatial Audio & Tracking",
+      "Human-Computer Interaction"
+    ],
+    "skill_benchmarks": {
+      "Unity/Unreal Engine": 80,
+      "C# or C++": 75,
+      "3D Graphics & Shaders": 75,
+      "Spatial Audio & Tracking": 70,
+      "Human-Computer Interaction": 75
+    },
+    "aptitude_requirements": {
+      "spatial_ability": 88,
+      "creative_thinking": 84,
+      "logical_reasoning": 80,
+      "numerical": 76
+    },
+    "interest_areas": [
+      "Virtual Reality",
+      "Design",
+      "Gaming",
+      "Interactive Media"
+    ],
+    "personality_traits": {
+      "innovative": 88,
+      "creative": 85,
+      "experimental": 85
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in CS/Digital Media",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 190000,
+      "certification_cost_usd": 1200
+    },
+    "market_demand": {
+      "rating": "Medium-High",
+      "score": 78.0,
+      "job_postings_trend": "Increasing",
+      "hiring_velocity": 0.74
+    },
+    "location_demand": {
+      "score": 78.0,
+      "remote_friendly": true,
+      "primary_hubs": ["Bangalore", "Hyderabad", "Mumbai", "Remote"]
+    },
+    "future_growth": {
+      "score": 86.0,
+      "projected_growth_rate_percent": 23.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "High"
+    }
+  },
+  {
+    "career_name": "Network & Telecom Infrastructure Engineer",
+    "category": "Network Engineering",
+    "required_skills": [
+      "TCP/IP Networking",
+      "5G Architecture",
+      "Routing & Switching",
+      "Network Automation (Python)",
+      "Troubleshooting"
+    ],
+    "skill_benchmarks": {
+      "TCP/IP Networking": 80,
+      "5G Architecture": 75,
+      "Routing & Switching": 75,
+      "Network Automation (Python)": 70,
+      "Troubleshooting": 80
+    },
+    "aptitude_requirements": {
+      "logical_reasoning": 80,
+      "systems_thinking": 82,
+      "numerical": 72,
+      "attention_to_detail": 82
+    },
+    "interest_areas": [
+      "Telecommunications",
+      "Networking",
+      "Infrastructure",
+      "Hardware"
+    ],
+    "personality_traits": {
+      "methodical": 85,
+      "practical": 82,
+      "steady": 80
+    },
+    "financial_cost": {
+      "education_level": "Bachelor's Degree in ECE/IT + Cisco/CCNA Certs",
+      "estimated_cost_tier": "Medium",
+      "estimated_annual_cost": 170000,
+      "certification_cost_usd": 900
+    },
+    "market_demand": {
+      "rating": "Medium",
+      "score": 72.0,
+      "job_postings_trend": "Stable",
+      "hiring_velocity": 0.70
+    },
+    "location_demand": {
+      "score": 74.0,
+      "remote_friendly": false,
+      "primary_hubs": ["Chennai", "Bangalore", "Mumbai", "Delhi-NCR"]
+    },
+    "future_growth": {
+      "score": 78.0,
+      "projected_growth_rate_percent": 15.0,
+      "growth_horizon": "2024-2032",
+      "automation_resilience": "Medium-High"
+    }
+  }
+]

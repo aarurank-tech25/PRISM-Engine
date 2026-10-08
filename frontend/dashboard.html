@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRISM Engine - Placeholder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* Global PRISM Sidebar Layout */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f8fafc;
+      font-family: 'Inter', sans-serif;
+      color: #0f172a;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .prism-sidebar {
+      width: 260px;
+      background-color: #0f172a;
+      color: #94a3b8;
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      z-index: 1000;
+      overflow-y: auto;
+      border-right: 1px solid #1e293b;
+      transition: transform 0.3s ease;
+    }
+
+    .prism-sidebar-header {
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+    }
+
+    .prism-brand-logo {
+      background: #2563eb;
+      color: #ffffff;
+      padding: 0.35rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 800;
+    }
+
+    .prism-nav-list {
+      list-style: none;
+      padding: 0 1rem;
+      margin: 1rem 0;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .prism-nav-item a {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      padding: 0.75rem 1rem;
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .prism-nav-item a:hover {
+      background-color: #1e293b;
+      color: #e2e8f0;
+    }
+
+    .prism-nav-item a.active {
+      background-color: rgba(37, 99, 235, 0.15);
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .prism-nav-item a.active::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 15%;
+      height: 70%;
+      width: 4px;
+      background-color: #3b82f6;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .prism-nav-icon {
+      width: 20px;
+      height: 20px;
+      opacity: 0.7;
+    }
+    .prism-nav-item a:hover .prism-nav-icon {
+      opacity: 0.9;
+    }
+    .prism-nav-item a.active .prism-nav-icon {
+      opacity: 1;
+      color: #60a5fa;
+    }
+
+    .prism-sidebar-divider {
+      height: 1px;
+      background-color: #1e293b;
+      margin: 1rem;
+    }
+
+    .prism-main-wrapper {
+      margin-left: 260px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .prism-mobile-header {
+      display: none;
+      background-color: #0f172a;
+      padding: 1rem 1.5rem;
+      color: white;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 990;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    .prism-mobile-hamburger {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .prism-mobile-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(15, 23, 42, 0.6);
+      z-index: 995;
+    }
+
+    /* Print & Responsive */
+    @media (max-width: 1024px) {
+      .prism-sidebar { width: 220px; }
+      .prism-main-wrapper { margin-left: 220px; }
+    }
+    @media (max-width: 768px) {
+      .prism-sidebar {
+        transform: translateX(-100%);
+        width: 280px;
+      }
+      .prism-sidebar.mobile-open { transform: translateX(0); }
+      .prism-main-wrapper { margin-left: 0; }
+      .prism-mobile-header { display: flex; }
+      .prism-mobile-overlay.mobile-open { display: block; }
+    }
+    @media print {
+      .prism-sidebar, .prism-mobile-header, .prism-breadcrumb-bar { display: none !important; }
+      .prism-main-wrapper { margin-left: 0; }
+      body { background: #ffffff; }
+    }
+
+    /* Keep breadcrumb and placeholder styles */
+    .prism-breadcrumb-bar {
+      width: 100%;
+      box-sizing: border-box;
+      margin: 1.5rem 0 0 0;
+      padding: 0 2rem;
+      font-size: 0.8rem;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .prism-breadcrumb-bar a { color: #2563eb; text-decoration: none; }
+    .placeholder-content { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: calc(100vh - 4rem); text-align: center; padding: 2rem; }
+    .placeholder-content h1 { font-size: 2rem; margin-bottom: 1rem; color: #1e293b; }
+    .placeholder-content p { color: #64748b; font-size: 1rem; max-width: 500px; line-height: 1.5; }
+    .back-btn { margin-top: 2rem; background: #2563eb; color: white; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 500; transition: background 0.2s; }
+    .back-btn:hover { background: #1d4ed8; }
+  </style>
+</head>
+<body>
+  <div class="prism-mobile-overlay" id="prism-mobile-overlay"></div>
+  <aside class="prism-sidebar" id="prism-sidebar">
+    <div class="prism-sidebar-header">
+      <span class="prism-brand-logo">PRISM</span>
+      <span>Engine</span>
+    </div>
+    <ul class="prism-nav-list">
+      <li class="prism-nav-item">
+        <a href="../frontend/dashboard.html" class="active">
+          <svg class="prism-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
+          Dashboard
+        </a>
+      </li>
+      <li class="prism-nav-item">
+        <a href="../assessment/assessment.html">
+          <svg class="prism-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          Aptitude Assessment
+        </a>
+      </li>
+      <li class="prism-nav-item">
+        <a href="../roadmap/index.html">
+          <svg class="prism-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          Career Pathways
+        </a>
+      </li>
+      <li class="prism-nav-item">
+        <a href="../assessment/financial_planner.html">
+          <svg class="prism-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          Financial Planner
+        </a>
+      </li>
+      <li class="prism-nav-item">
+        <a href="../roadmap/scholarships.html">
+          <svg class="prism-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+          Scholarships
+        </a>
+      </li>
+      <div class="prism-sidebar-divider"></div>
+      <li class="prism-nav-item">
+        <a href="../frontend/profile.html">
+          <svg class="prism-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          Student Profile
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <div class="prism-main-wrapper">
+    <div class="prism-mobile-header">
+      <div class="prism-sidebar-header" style="padding:0;">
+        <span class="prism-brand-logo">PRISM</span>
+        <span>Engine</span>
+      </div>
+      <button class="prism-mobile-hamburger" id="prism-mobile-menu-btn" aria-label="Toggle navigation">☰</button>
+    </div>
+    <div class="placeholder-content">
+      <h1>Dashboard</h1>
+      <p>This module belongs to another team member and will be integrated here.</p>
+      <a href="../roadmap/index.html" class="back-btn">Go to Mathi's Module (Career Pathways)</a>
+    </div>
+
+    <script>
+      const mobileBtn = document.getElementById('prism-mobile-menu-btn');
+      const sidebar = document.getElementById('prism-sidebar');
+      const overlay = document.getElementById('prism-mobile-overlay');
+
+      function toggleMenu() {
+        sidebar.classList.toggle('mobile-open');
+        overlay.classList.toggle('mobile-open');
+      }
+
+      if(mobileBtn) mobileBtn.addEventListener('click', toggleMenu);
+      if(overlay) overlay.addEventListener('click', toggleMenu);
+    </script>
+  </div>
+</body>
+</html>
